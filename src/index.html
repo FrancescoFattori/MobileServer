@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Control Panel</title>
+    </head>
+    <body>
+        <button onclick = "send('sync')">Sync</button>
+    </body>
+    <script>
+        function send(s){
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET","/" + s, true);
+            xhr.send();
+        }
+    </script>
+</html>
