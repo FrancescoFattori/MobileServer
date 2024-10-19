@@ -29,7 +29,7 @@ function post(msg, type) {
         if (xhr.readyState == 4 && xhr.status == 200) {
             let data = JSON.parse(xhr.response);
             console.log(xhr.response);
-           pushMessage(data.text, data.type);
+            pushMessage(data.text, data.type);
         } else {
             console.log(`Error: ${xhr.status}`);
         }
@@ -39,6 +39,7 @@ function post(msg, type) {
 function pushMessage(msg, type) {
     let elem = document.createElement("p");
     elem.innerText = msg;
+    if (type = "err") elem.style.color = red;
     let lastChild = htmlTerminalDiv.children[htmlTerminalDiv.children.length - 1];
     htmlTerminalDiv.insertBefore(elem, lastChild);
 }
