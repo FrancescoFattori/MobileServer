@@ -39,6 +39,7 @@ function post(msg, type) {
 function pushMessage(msg, type) {
     let elem = document.createElement("p");
     elem.innerText = msg;
+    elem.style.color = "green";
     if (type == "err") elem.style.color = "red";
     let lastChild = htmlTerminalDiv.children[htmlTerminalDiv.children.length - 1];
     htmlTerminalDiv.insertBefore(elem, lastChild);
