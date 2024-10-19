@@ -1,16 +1,25 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-        <title>Control Panel</title>
-    </head>
-    <body>
-        <button onclick = "send('sync')">Sync</button>
-    </body>
-    <script>
-        function send(s){
-            let xhr = new XMLHttpRequest();
-            xhr.open("GET","/" + s, true);
-            xhr.send();
-        }
-    </script>
+
+<head>
+    <link rel="stylesheet" href="src/index.css" />
+    <title>Control Panel</title>
+</head>
+
+<body>
+    <div id="topBar">
+        <div id="services">Services</div>
+        <div id="terminal">Terminal</div>
+    </div>
+    <div id="servicesDiv"></div>
+    <div id="terminalDiv">
+        <div id="commandLine">
+            <p id="command">$</p>
+            <input type="text" id="input">
+        </div>
+    </div>
+</body>
+<script src="src/index.js"></script>
+
 </html>

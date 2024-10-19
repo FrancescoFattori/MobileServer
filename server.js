@@ -4,16 +4,36 @@ var port = 8080;
 //Inclusions
 const prvIp = require("ip");
 const pubIp = require("ext-ip")();
+const bodyParser = require('body-parser');
 const express = require("express");
+const { spawn } = require("child_process");
 
 const app = express();
 app.use(express.static("./"));
+app.use(bodyParser.json()); // for parsing application/json
+app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 app.get("/", (req, res) => {
     res.sendFile("src/index.html", { root: __dirname });
 });
 app.get("/sync", (req, res) => {
     console.log("sync requested");
     res.end();
+});
+app.post("/command", (req, res) => {
+    let p = spawn(req.body.msg, [], { shell: true });
+    let msg = { text: "", type: "out" };
+    p.stdout.on('data', (data) => {
+        console.log("stdout: " + data);
+        msg.text += Buffer.from(data).toString();
+    });
+    p.stderr.on('data', (data) => {
+        console.error("stderr: " + data);
+        msg = ({ text: Buffer.from(data).toString(), type: "err" });
+    });
+    p.on('close', (code) => {
+        console.log(`child process exited with code ${code}`);
+        res.json(msg);
+    });
 });
 async function main() {
     //Reading parameters
