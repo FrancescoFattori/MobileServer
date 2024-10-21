@@ -7,6 +7,9 @@ const request = require('request');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 
+var process = require('process');
+process.chdir(__dirname);
+
 var mapStops = [];
 var stops = [];
 var routes = [];
@@ -271,6 +274,18 @@ function requestTrips(idx) {
 }
 
 function setup() {
+    readMapStops();
+    requestStops();
+    requestRoutes();
+}
+
+function update() {
+    let i = 0;
+    setInterval(() => { requestTrips(i); i++; i %= routes.length; }, 1000 + (Math.random() * 200 - 100));
+    setInterval(() => { saveMapStops(); }, 30000);
+}
+
+async function main() {
     //Reading parameters
     for (let i = 0; i < process.argv.length; i++) {
         let arg = process.argv[i];
@@ -283,22 +298,17 @@ function setup() {
             i++;
         }
     }
-    readMapStops();
-    requestStops();
-    requestRoutes();
+    //Printing connection infos
+    await pubIp.get().then(ip => { console.log("Public IP: " + ip); }).catch(err => { console.error(err); });
+    console.log("Private IP: " + prvIp.address());
     let ip = "localhost"; if (public) ip = "0.0.0.0";
     let s = "Hosting " + (public ? "public" : "local") + " Server on port: " + port;
-    app.listen(port, ip, () => console.log(s));
+    setup();
+    app.listen(port, ip, () => {
+        update();
+    });
 }
-
-function update() {
-    let i = 0;
-    setInterval(() => { requestTrips(i); i++; i %= routes.length; }, 1000 + (Math.random() * 200 - 100));
-    setInterval(() => { saveMapStops(); }, 30000);
-}
-
-setup();
-update();
+main();
 
 /*
 process.on('uncaughtException', UncaughtExceptionHandler);
