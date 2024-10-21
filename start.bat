@@ -1,1 +1,1 @@
-nodemon server.js port: 8080
+nodemon server.js port: 8080 public

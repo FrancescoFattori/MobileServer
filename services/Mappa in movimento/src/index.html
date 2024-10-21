@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mappa in movimento</title>
+    <link href="https://db.onlinewebfonts.com/c/4bad449c3c5c04d6a405ea6b80986aa0?family=SohoGothicPro-Bold"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/index.css">
+</head>
+
+<body oncontextmenu="return false;">
+    <button onclick="refresh();" style="z-index:2; position:absolute;">Refresh</button>
+    <div id="sidebar">
+        <div id="menuSelector">
+            <div id="bus"></div>
+            <div id="stops"></div>
+        </div>
+        <div id="expander"></div>
+        <div id="sidebarToggle"></div>
+    </div>
+    <p id="json" style="font-family: Consolas,monospace; font-size: small; display:none"></p>
+    <div id="mapDiv">
+        <img id="mapSvg" style="display:none" src="/assets/Mappa bus.svg">
+        <img id="mapPng" src="/assets/Mappa bus 4k.png">
+        <div id="busDiv"></div>
+        <div id="devPoints"></div>
+    </div>
+    <div id="devConsole" style="background-color:rgb(200,200,200); border: 1px solid black; right:0%; display: block;">
+        <label for="devStop">Stop:</label>
+        <select name="devStop" id="devStop"></select><br><br>
+        <label for="devBus">Bus:</label>
+        <button id="devSelectAll">Select All</button>
+        <form name="devBus" id="devBus"></form><br>
+        <button id="devModify1">Modify</button><br>
+        <p>-----------------------------------------</p>
+        <br>
+        <label for="devStop1">Stop:</label><br>
+        <select name="devStop1" id="devStop1"></select><br><br>
+        <select name="devStop2" id="devStop2"></select><br><br>
+        <select name="devStop3" id="devStop3"></select><br><br>
+        <label for="devNextStop1">Next Stop:</label><br>
+        <select name="devNextStop1" id="devNextStop1"></select><br><br>
+        <select name="devNextStop2" id="devNextStop2"></select><br><br>
+        <select name="devNextStop3" id="devNextStop3"></select><br><br>
+        <button id="devSelectAll1">Select All</button>
+        <form name="devBus1" id="devBus1"></form><br>
+        <input type="number" id="devNumber">
+        <button id="devPop">Pop</button><br><br>
+        <button id="devInvert">Send Inverted</button><br><br>
+        <button id="devModify2">Modify</button><br>
+    </div>
+</body>
+
+<script defer src="src/ui.js"></script>
+<script defer src="src/logic.js"></script>
+<script defer src="src/dev.js"></script>
+
+</html>

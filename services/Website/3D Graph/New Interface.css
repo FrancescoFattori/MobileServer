@@ -1,0 +1,404 @@
+html,
+body {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+    background-color: black;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+canvas {
+    image-rendering: pixelated;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#mainEquation {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 8.5%;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+math-field::part(virtual-keyboard-toggle):after {
+    display: none;
+}
+
+#sideBar {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 91.5%;
+    background-color: red;
+}
+
+#render {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 91.5%;
+    background-color: blue;
+}
+
+#expander {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 1vmin;
+    height: 100%;
+    transform: translateX(50%);
+}
+
+#expander:hover {
+    cursor: ew-resize;
+}
+
+#topBar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5%;
+    background-color: rgba(150, 150, 150, 1);
+}
+
+#equationsDiv {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 95%;
+    background-color: rgba(230, 230, 230, 1);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#equations {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.equation {
+    position: relative;
+    width: 100%;
+    height: 7.5vmin;
+    background-color: white;
+    margin-bottom: 0.25vmin;
+    overflow: hidden;
+}
+
+.activeBtn {
+    border-radius: 50%;
+    border: 0.2vmin rgba(25, 25, 25, 0.75) solid;
+    text-align: center;
+    position: absolute;
+    left: 0.5vmin;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2vmin;
+    height: 2vmin;
+    background-color: gray;
+}
+
+.activeBtn:hover {
+    cursor: pointer;
+}
+
+.formula {
+    border: none;
+    overflow: hidden;
+    position: absolute;
+    left: 3.5vmin;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 6vmin;
+    line-height: 6vmin;
+    font-size: 2.35vmin;
+    width: 90%;
+}
+
+.formula::part(virtual-keyboard-toggle) {
+    display: none;
+}
+
+.deleteEq {
+    position: absolute;
+    border-radius: 25%;
+    z-index: 1;
+    right: 0.2vmin;
+    top: 0.2vmin;
+    width: 2.5vmin;
+    height: 2.275vmin;
+    font-size: 2vmin;
+    line-height: 2.275vmin;
+    padding-top: 0.225vmin;
+    text-align: center;
+    opacity: 75%;
+    transition: 0.5s;
+}
+
+.deleteEq:hover {
+    cursor: pointer;
+    opacity: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.toggleSlider {
+    border-radius: 25%;
+    text-align: center;
+    position: absolute;
+    left: 0.25vmin;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.7vmin;
+    height: 2.55vmin;
+    font-size: 2.4vmin;
+    padding: 0.1vmin;
+    padding-top: 0.25vmin;
+    opacity: 75%;
+}
+
+.toggleSlider:hover {
+    cursor: pointer;
+    opacity: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.sliderSpeed {
+    z-index: 2;
+    border-radius: 0.5vmin;
+    background-color: rgba(100, 100, 100, 0.25);
+    text-align: center;
+    position: absolute;
+    right: 10vmin;
+    top: 35%;
+    transform: translateY(-50%);
+    width: 2.5vmin;
+    height: 2vmin;
+    padding-bottom: 0.25vmin;
+    font-size: 1.75vmin;
+    opacity: 75%;
+}
+
+.sliderSpeed:hover {
+    cursor: pointer;
+    opacity: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.sliderMode {
+    z-index: 2;
+    border-radius: 0.5vmin;
+    background-color: rgba(100, 100, 100, 0.25);
+    text-align: center;
+    position: absolute;
+    right: 6.5vmin;
+    top: 35%;
+    transform: translateY(-50%);
+    width: 2.5vmin;
+    height: 2vmin;
+    padding: 0.05vmin;
+    padding-top: 0.3vmin;
+    font-size: 1.65vmin;
+    opacity: 75%;
+}
+
+.sliderMode:hover {
+    cursor: pointer;
+    opacity: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.rangeLimit {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    width: 3.75vmin;
+    left: 3.75vmin;
+    bottom: 0.25vmin;
+    height: 1.75vmin;
+    font-size: 1.75vmin;
+    display: block;
+    text-align: center;
+}
+
+.rangeSlider {
+    accent-color: gray;
+    position: absolute;
+    bottom: 0.5vmin;
+    right: 4.5vmin;
+    left: 8vmin;
+    z-index: 1;
+}
+input[type="range"]{
+    accent-color: gray;
+}
+
+#formula {
+    position: absolute;
+    top: 50%;
+    left: 0.5vmin;
+    right: 0.5vmin;
+    height: 6vmin;
+    line-height: 6vmin;
+    max-height: 8.5vmin;
+    font-size: 2.35vmin;
+    transform: translateY(-50%);
+}
+
+
+#addEquation {
+    position: absolute;
+    border-radius: 25%;
+    transition: 0.5s;
+    top: 50%;
+    left: 0.5vmin;
+    transform: translateY(-50%);
+    height: 4.5vmin;
+    width: 4.5vmin;
+    text-align: center;
+    font-size: 4vmin;
+    line-height: 4.5vmin;
+}
+
+#addEquation:hover {
+    cursor: pointer;
+    opacity: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+#options {
+    position: absolute;
+    border-radius: 25%;
+    transition: 0.5s;
+    right: 6vmin;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4.5vmin;
+    width: 4.5vmin;
+    text-align: center;
+    font-size: 3.35vmin;
+    line-height: 4.5vmin;
+}
+
+#options:hover {
+    cursor: pointer;
+    opacity: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+#toggleSideBar {
+    position: absolute;
+    border-radius: 25%;
+    transition: 0.5s;
+    right: 0.75vmin;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4.5vmin;
+    width: 4.5vmin;
+    text-align: center;
+    font-size: 3.5vmin;
+    line-height: 4.5vmin;
+}
+
+#toggleSideBar:hover {
+    cursor: pointer;
+    opacity: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.equationSide {
+    z-index: 0;
+    position: absolute;
+    background-color: gray;
+    left: 0;
+    height: 100%;
+    width: 3.5vmin;
+    cursor: grab;
+}
+
+#viewGraph {
+    z-index: 1;
+    position: absolute;
+    right: 2vmin;
+    top: 2vmin;
+    width: 5vmin;
+    height: 5vmin;
+}
+
+.segment {
+    border-radius: 0.125vmin;
+    position: absolute;
+    background-color: red;
+    width: 2.5vmin;
+    height: 0.25vmin;
+    top: 50%;
+    left: 50%;
+    transform-origin: center left;
+    transform: translateY(-50%);
+    transform-style: preserve-3d;
+}
+
+.graphLetter {
+    text-align: center;
+    position: absolute;
+    width: 1.25vmin;
+    height: 1.25vmin;
+    line-height: 1.25vmin;
+    right: -1.25vmin;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.25vmin;
+    color: white;
+}
+
+#optionsBar{
+    z-index: 2;
+    background-color: rgba(230, 230, 230, 1);;
+    position: absolute;
+    width:100%;
+    height:95%;
+    bottom:0;
+}
+#fullscreen{
+    border-radius: 0.5vmin;
+    position: absolute;
+    height:5vmin;
+    width:5vmin;
+    font-size: 5vmin;
+    line-height: 5vmin;
+    text-align: center;
+    left:1vmin;
+    bottom: 1vmin;
+    transition: 0.5s;
+}
+#fullscreen:hover {
+    cursor: pointer;
+    opacity: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+#fps {
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    overflow: visible;
+    margin: 5px;
+    background: none;
+    z-index: 1;
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-family: 'Courier New', monospace;
+}

@@ -1,0 +1,3167 @@
+[
+	{
+		"stopId": 1,
+		"stopName": "Baselga Del Bondone",
+		"street": "Baselga Del Bondone"
+	},
+	{
+		"stopId": 2,
+		"stopName": "Baselga Del Bondone",
+		"street": "Baselga Del Bondone"
+	},
+	{
+		"stopId": 3,
+		"stopName": "Belvedere",
+		"street": "Belvedere"
+	},
+	{
+		"stopId": 4,
+		"stopName": "Lamar Ponte Avisio",
+		"street": "Lamar-Ponte Avisio"
+	},
+	{
+		"stopId": 5,
+		"stopName": "Sp 85 Bivio Sopramonte",
+		"street": "Sp 85 Bivio Sopramonte"
+	},
+	{
+		"stopId": 7,
+		"stopName": "Maso Bolleri",
+		"street": "Maso Bolleri"
+	},
+	{
+		"stopId": 8,
+		"stopName": "Maso Bolleri",
+		"street": "Maso Bolleri"
+	},
+	{
+		"stopId": 9,
+		"stopName": "Borino",
+		"street": "Borino"
+	},
+	{
+		"stopId": 10,
+		"stopName": "Cadine Strada Gardesana",
+		"street": "Cadine"
+	},
+	{
+		"stopId": 11,
+		"stopName": "Cadine Strada Gardesana",
+		"street": "Cadine Strada Gardesana"
+	},
+	{
+		"stopId": 12,
+		"stopName": "Canova Paludi",
+		"street": "Canova Paludi"
+	},
+	{
+		"stopId": 13,
+		"stopName": "Gardolo Materna Paludi",
+		"street": "Gardolo \"Materna Paludi\""
+	},
+	{
+		"stopId": 15,
+		"stopName": "Asiago S.Bartolameo",
+		"street": "Asiago S.Bartolameo"
+	},
+	{
+		"stopId": 17,
+		"stopName": "Cognola Toresela",
+		"street": "Cognola \"Toresela\""
+	},
+	{
+		"stopId": 18,
+		"stopName": "Cognola Toresela",
+		"street": "Cognola \"Toresela\""
+	},
+	{
+		"stopId": 19,
+		"stopName": "Cognola Bivio Civezzano",
+		"street": "Cognola Bivio Civezzano"
+	},
+	{
+		"stopId": 20,
+		"stopName": "Cognola Bivio Civezzano",
+		"street": "Cognola Bivio Civezzano"
+	},
+	{
+		"stopId": 21,
+		"stopName": "Cognola Centro Civico",
+		"street": "Cognola \"Centro Civico\""
+	},
+	{
+		"stopId": 22,
+		"stopName": "Cognola Grezoni",
+		"street": "Cognola Grezoni"
+	},
+	{
+		"stopId": 23,
+		"stopName": "Cognola Grezoni",
+		"street": "Cognola Grezoni"
+	},
+	{
+		"stopId": 24,
+		"stopName": "San Vito",
+		"street": "San Vito"
+	},
+	{
+		"stopId": 25,
+		"stopName": "Cognola S.Vito",
+		"street": "Cognola S.Vito"
+	},
+	{
+		"stopId": 26,
+		"stopName": "Cognola S.Vito",
+		"street": "Cognola S.Vito"
+	},
+	{
+		"stopId": 27,
+		"stopName": "San Vito",
+		"street": "San Vito"
+	},
+	{
+		"stopId": 28,
+		"stopName": "Cognola Scuole",
+		"street": "Cognola \"Scuole\""
+	},
+	{
+		"stopId": 29,
+		"stopName": "Cognola Scuole",
+		"street": "Cognola \"Scuole\""
+	},
+	{
+		"stopId": 30,
+		"stopName": "Cognola Alla Veduta Roza",
+		"street": "Cognola Alla Veduta \"Roza\""
+	},
+	{
+		"stopId": 31,
+		"stopName": "Cognola Alla Veduta Roza",
+		"street": "Cognola Alla Veduta \"Roza\""
+	},
+	{
+		"stopId": 32,
+		"stopName": "Brescia Villa Salvotti",
+		"street": "Brescia \"Villa Salvotti\""
+	},
+	{
+		"stopId": 37,
+		"stopName": "Degli Alpini Oberziner",
+		"street": "Degli Alpini Oberziner"
+	},
+	{
+		"stopId": 38,
+		"stopName": "Cortesano",
+		"street": "Cortesano"
+	},
+	{
+		"stopId": 39,
+		"stopName": "Vigo Meano Alle Gorghe",
+		"street": "Vigo Meano Alle Gorghe"
+	},
+	{
+		"stopId": 40,
+		"stopName": "Vigo Meano Alle Gorghe",
+		"street": "Vigo Meano Alle Gorghe"
+	},
+	{
+		"stopId": 43,
+		"stopName": "Forte Bus De Vela",
+		"street": "Forte Bus De Vela"
+	},
+	{
+		"stopId": 46,
+		"stopName": "Gabbiolo Campo Sportivo",
+		"street": "Gabbiolo \"Campo Sportivo\""
+	},
+	{
+		"stopId": 47,
+		"stopName": "Gabbiolo Campo Sportivo",
+		"street": "Gabbiolo \"Campo Sportivo\""
+	},
+	{
+		"stopId": 48,
+		"stopName": "Sp 76 Carpenedi",
+		"street": "Sp 76 Carpenedi"
+	},
+	{
+		"stopId": 49,
+		"stopName": "Sp 76 Carpenedi",
+		"street": "Sp 76 Carpenedi"
+	},
+	{
+		"stopId": 50,
+		"stopName": "Gardolo S.Anna",
+		"street": "Gardolo S.Anna"
+	},
+	{
+		"stopId": 51,
+		"stopName": "Gardolo S.Anna",
+		"street": "Gardolo S.Anna"
+	},
+	{
+		"stopId": 52,
+		"stopName": "Gardolo P.Le Neufahrn Sud",
+		"street": "Gardolo P.Le Neufahrn Sud"
+	},
+	{
+		"stopId": 53,
+		"stopName": "Gardolo P.Le Neufahrn Nord",
+		"street": "Gardolo P.Le Neufahrn Nord"
+	},
+	{
+		"stopId": 54,
+		"stopName": "Gardolo Piazza",
+		"street": "Gardolo Piazza"
+	},
+	{
+		"stopId": 55,
+		"stopName": "Gardolo Piazza",
+		"street": "Gardolo Piazza"
+	},
+	{
+		"stopId": 56,
+		"stopName": "Canova Aichner",
+		"street": "Canova Aichner"
+	},
+	{
+		"stopId": 57,
+		"stopName": "Canova Via Della Canova",
+		"street": "Canova Via Della Canova"
+	},
+	{
+		"stopId": 58,
+		"stopName": "Gardolo Don Milani 8 Marzo",
+		"street": "Gardolo Don Milani 8 Marzo"
+	},
+	{
+		"stopId": 59,
+		"stopName": "Gardolo D.Milani Piscina",
+		"street": "Gardolo D.Milani \"Piscina\""
+	},
+	{
+		"stopId": 60,
+		"stopName": "Gardolo D.Milani Piscina",
+		"street": "Gardolo D.Milani \"Piscina\""
+	},
+	{
+		"stopId": 61,
+		"stopName": "Gardolo Don Milani 8 Marzo",
+		"street": "Gardolo Don Milani 8 Marzo"
+	},
+	{
+		"stopId": 62,
+		"stopName": "Gardolo S.Anna Carpenedi",
+		"street": "Gardolo S.Anna Carpenedi"
+	},
+	{
+		"stopId": 63,
+		"stopName": "Gardolo S.Anna Carpenedi",
+		"street": "Gardolo S.Anna Carpenedi"
+	},
+	{
+		"stopId": 64,
+		"stopName": "Gardolo Svincolo Ss.12",
+		"street": "Gardolo Svincolo Ss.12"
+	},
+	{
+		"stopId": 65,
+		"stopName": "Gazzadina Strada Vecchia",
+		"street": "Gazzadina Strada Vecchia"
+	},
+	{
+		"stopId": 66,
+		"stopName": "Gazzadina Al Pontat",
+		"street": "Gazzadina Al Pontat"
+	},
+	{
+		"stopId": 67,
+		"stopName": "Gazzadina Al Pontat",
+		"street": "Gazzadina Al Pontat"
+	},
+	{
+		"stopId": 68,
+		"stopName": "Gazzadina Strada Vecchia",
+		"street": "Gazzadina Strada Vecchia"
+	},
+	{
+		"stopId": 69,
+		"stopName": "Grotta Piazza",
+		"street": "Grotta Piazza"
+	},
+	{
+		"stopId": 70,
+		"stopName": "Grotta Bindesi",
+		"street": "Grotta Bindesi"
+	},
+	{
+		"stopId": 71,
+		"stopName": "Grotta Bindesi",
+		"street": "Grotta Bindesi"
+	},
+	{
+		"stopId": 72,
+		"stopName": "Ss 12 Zona Ind.Le Ftm",
+		"street": "Ss 12 \"Zona Ind.Le Ftm\""
+	},
+	{
+		"stopId": 73,
+		"stopName": "Lamar Ftm",
+		"street": "Via Alto Adige"
+	},
+	{
+		"stopId": 74,
+		"stopName": "Lamar Ftm",
+		"street": "Lamar \"Ftm\""
+	},
+	{
+		"stopId": 75,
+		"stopName": "Lamar Sottostazione Enel",
+		"street": "Lamar \"Sottostazione Enel\""
+	},
+	{
+		"stopId": 76,
+		"stopName": "Largo Sauro",
+		"street": "Largo Sauro"
+	},
+	{
+		"stopId": 77,
+		"stopName": "Lavis Nazionale",
+		"street": "Via Nazionale"
+	},
+	{
+		"stopId": 78,
+		"stopName": "Lavis Piazza Caduti",
+		"street": "Lavis Piazza Mercato"
+	},
+	{
+		"stopId": 79,
+		"stopName": "Lavis Municipio",
+		"street": "Lavis \"Municipio\""
+	},
+	{
+		"stopId": 80,
+		"stopName": "Lavis Rosmini Segantini",
+		"street": "Lavis Rosmini Segantini"
+	},
+	{
+		"stopId": 85,
+		"stopName": "Centochiavi Dalla Fior",
+		"street": "Centochiavi Dalla Fior"
+	},
+	{
+		"stopId": 86,
+		"stopName": "Centochiavi Chiocchetti",
+		"street": "Centochiavi Chiocchetti"
+	},
+	{
+		"stopId": 87,
+		"stopName": "Melta Case Itea",
+		"street": "Melta \"Case Itea\""
+	},
+	{
+		"stopId": 88,
+		"stopName": "Parco di Melta",
+		"street": "Parco di Melta"
+	},
+	{
+		"stopId": 89,
+		"stopName": "Melta Centro",
+		"street": "Melta Centro"
+	},
+	{
+		"stopId": 90,
+		"stopName": "Melta Centro",
+		"street": "Melta Centro"
+	},
+	{
+		"stopId": 91,
+		"stopName": "Parco di Melta",
+		"street": "Parco di Melta"
+	},
+	{
+		"stopId": 92,
+		"stopName": "Bettini Madonna Bianca",
+		"street": "Bettini \"Madonna Bianca\""
+	},
+	{
+		"stopId": 93,
+		"stopName": "Stella S.Gaetano",
+		"street": "Stella \"S.Gaetano\""
+	},
+	{
+		"stopId": 94,
+		"stopName": "Ss 12 Casteller",
+		"street": "Ss 12 \"Casteller\""
+	},
+	{
+		"stopId": 95,
+		"stopName": "Ss 12 Casteller",
+		"street": "Ss 12 \"Casteller\""
+	},
+	{
+		"stopId": 96,
+		"stopName": "Madonna Bianca S.Gaetano",
+		"street": "Madonna Bianca / San Gaetano"
+	},
+	{
+		"stopId": 97,
+		"stopName": "Stella Marighetto",
+		"street": "Stella Marighetto"
+	},
+	{
+		"stopId": 98,
+		"stopName": "Madonna Bianca Man",
+		"street": "Madonna Bianca \"Man\""
+	},
+	{
+		"stopId": 99,
+		"stopName": "Ss 12 Le Caverne",
+		"street": "Ss 12 \"Le Caverne\""
+	},
+	{
+		"stopId": 100,
+		"stopName": "Ss 12 Le Caverne",
+		"street": "Ss 12 \"Le Caverne\""
+	},
+	{
+		"stopId": 101,
+		"stopName": "Martignano Formigheta",
+		"street": "Martignano Formigheta"
+	},
+	{
+		"stopId": 102,
+		"stopName": "Martignano Formigheta",
+		"street": "Martignano Formigheta"
+	},
+	{
+		"stopId": 103,
+		"stopName": "Martignano Chiesa",
+		"street": "Martignano \"Chiesa\""
+	},
+	{
+		"stopId": 104,
+		"stopName": "Sp 131 Maso Pradiscola",
+		"street": "Sp 131 \"Maso Pradiscola\""
+	},
+	{
+		"stopId": 105,
+		"stopName": "Sp 131 Maso Pradiscola",
+		"street": "Sp 131 \"Maso Pradiscola\""
+	},
+	{
+		"stopId": 106,
+		"stopName": "Martignano P.Zza Menghin",
+		"street": "Martignano P.Zza Menghin"
+	},
+	{
+		"stopId": 107,
+		"stopName": "Martignano P.Zza Menghin",
+		"street": "Martignano P.Zza Menghin"
+	},
+	{
+		"stopId": 108,
+		"stopName": "Martignano Piazza Canopi",
+		"street": "Martignano Piazza Canopi"
+	},
+	{
+		"stopId": 109,
+		"stopName": "Sp 131 Res. Silvana",
+		"street": "Sp 131 \"Res. Silvana\""
+	},
+	{
+		"stopId": 110,
+		"stopName": "Sp 131 Res. Silvana",
+		"street": "Sp 131 \"Res. Silvana\""
+	},
+	{
+		"stopId": 111,
+		"stopName": "Martignano Ai Bolleri",
+		"street": "Martignano Ai Bolleri"
+	},
+	{
+		"stopId": 112,
+		"stopName": "Martignano Ai Bolleri",
+		"street": "Martignano Ai Bolleri"
+	},
+	{
+		"stopId": 113,
+		"stopName": "Sopramonte Maso Banal",
+		"street": "Maso Banal"
+	},
+	{
+		"stopId": 115,
+		"stopName": "Sp 131 Al Maso Specchio",
+		"street": "Sp 131 Al Maso Specchio"
+	},
+	{
+		"stopId": 116,
+		"stopName": "Sp 131 Al Maso Specchio",
+		"street": "Sp 131 Al Maso Specchio"
+	},
+	{
+		"stopId": 117,
+		"stopName": "Ravina Maso Stella",
+		"street": "Ravina \"Maso Stella\""
+	},
+	{
+		"stopId": 118,
+		"stopName": "Ravina Maso Stella",
+		"street": "Ravina \"Maso Stella\""
+	},
+	{
+		"stopId": 119,
+		"stopName": "Mattarello Piazza Perini",
+		"street": "Mattarello Piazza Perini"
+	},
+	{
+		"stopId": 120,
+		"stopName": "Mattarello Via Nazionale",
+		"street": "Mattarello Via Nazionale"
+	},
+	{
+		"stopId": 121,
+		"stopName": "Mattarello Via Nazionale",
+		"street": "Mattarello Via Nazionale"
+	},
+	{
+		"stopId": 122,
+		"stopName": "Mattarello Pomeranos",
+		"street": "Mattarello-Via Nazionale"
+	},
+	{
+		"stopId": 123,
+		"stopName": "Mattarello Ronchi",
+		"street": "Mattarello-Loc.Ronchi"
+	},
+	{
+		"stopId": 124,
+		"stopName": "Mattarello Ronchi",
+		"street": "Via di San Vincenzo"
+	},
+	{
+		"stopId": 125,
+		"stopName": "Mattarello S.Leonardo",
+		"street": "Mattarello S.Leonardo"
+	},
+	{
+		"stopId": 127,
+		"stopName": "Mattarello Catoni",
+		"street": "Mattarello Catoni"
+	},
+	{
+		"stopId": 128,
+		"stopName": "Mattarello Rio Stolzano",
+		"street": "Mattarello Rio Stolzano"
+	},
+	{
+		"stopId": 129,
+		"stopName": "Meano Bivio S.Lazzaro",
+		"street": "Meano Bivio S.Lazzaro"
+	},
+	{
+		"stopId": 130,
+		"stopName": "Meano Bivio S.Lazzaro",
+		"street": "Meano Bivio S.Lazzaro"
+	},
+	{
+		"stopId": 131,
+		"stopName": "Sp 76 Piac",
+		"street": "Sp 76 \"Piac\""
+	},
+	{
+		"stopId": 133,
+		"stopName": "Sp 76 Maregioli",
+		"street": "Sp 76 \"Maregioli\""
+	},
+	{
+		"stopId": 134,
+		"stopName": "Sp 76 Maregioli",
+		"street": "Sp 76 \"Maregioli\""
+	},
+	{
+		"stopId": 135,
+		"stopName": "Meano Campo Sportivo",
+		"street": "Meano \"Campo Sportivo\""
+	},
+	{
+		"stopId": 136,
+		"stopName": "Meano Campo Sportivo",
+		"street": "Meano \"Campo Sportivo\""
+	},
+	{
+		"stopId": 137,
+		"stopName": "Meano Cimitero",
+		"street": "Meano \"Cimitero\""
+	},
+	{
+		"stopId": 138,
+		"stopName": "Meano Cimitero",
+		"street": "Meano \"Cimitero\""
+	},
+	{
+		"stopId": 139,
+		"stopName": "Sp 76 Via Rossa",
+		"street": "Sp 76 \"Via Rossa\""
+	},
+	{
+		"stopId": 140,
+		"stopName": "Sp 76 Via Rossa",
+		"street": "Sp 76 \"Via Rossa\""
+	},
+	{
+		"stopId": 141,
+		"stopName": "Meano Piazza Dell'assunta",
+		"street": "Meano Piazza Dell'assunta"
+	},
+	{
+		"stopId": 142,
+		"stopName": "Meano Portoni",
+		"street": "Meano Portoni"
+	},
+	{
+		"stopId": 143,
+		"stopName": "Sp 76 Dos di Lamar",
+		"street": "Sp 76 Dos di Lamar"
+	},
+	{
+		"stopId": 144,
+		"stopName": "Sp 76 Dos di Lamar",
+		"street": "Sp 76 Dos di Lamar"
+	},
+	{
+		"stopId": 145,
+		"stopName": "Mesiano Fac. Ingegneria",
+		"street": "Mesiano \"Fac. Ingegneria\""
+	},
+	{
+		"stopId": 146,
+		"stopName": "Mesiano Fac. Ingegneria",
+		"street": "Mesiano \"Fac. Ingegneria\""
+	},
+	{
+		"stopId": 147,
+		"stopName": "Mesiano Stazione Fs",
+		"street": "Mesiano \"Stazione Fs\""
+	},
+	{
+		"stopId": 148,
+		"stopName": "Mesiano Stazione Fs",
+		"street": "Mesiano \"Stazione Fs\""
+	},
+	{
+		"stopId": 149,
+		"stopName": "Povo Valoni",
+		"street": "Povo Valoni"
+	},
+	{
+		"stopId": 150,
+		"stopName": "Povo Valoni",
+		"street": "Povo Valoni"
+	},
+	{
+		"stopId": 151,
+		"stopName": "Montevaccino",
+		"street": "Montevaccino"
+	},
+	{
+		"stopId": 152,
+		"stopName": "Montevaccino di Sotto",
+		"street": "Montevaccino di Sotto"
+	},
+	{
+		"stopId": 153,
+		"stopName": "Montevaccino di Sotto",
+		"street": "Montevaccino di Sotto"
+	},
+	{
+		"stopId": 154,
+		"stopName": "Sp 131 Paganin",
+		"street": "Sp 131 \"Paganin\""
+	},
+	{
+		"stopId": 155,
+		"stopName": "Sp 131 Paganin",
+		"street": "Sp 131 \"Paganin\""
+	},
+	{
+		"stopId": 156,
+		"stopName": "M.Vaccino Maso Librar",
+		"street": "M.Vaccino \"Maso Librar\""
+	},
+	{
+		"stopId": 157,
+		"stopName": "M.Vaccino Maso Librar",
+		"street": "M.Vaccino \"Maso Librar\""
+	},
+	{
+		"stopId": 158,
+		"stopName": "Ss 45 Montevideo",
+		"street": "Ss 45 \"Montevideo\""
+	},
+	{
+		"stopId": 159,
+		"stopName": "Villazzano Valnigra",
+		"street": "Villazzano Valnigra"
+	},
+	{
+		"stopId": 160,
+		"stopName": "Villazzano Valnigra",
+		"street": "Villazzano Valnigra"
+	},
+	{
+		"stopId": 161,
+		"stopName": "Oltrecastello",
+		"street": "Oltrecastello"
+	},
+	{
+		"stopId": 162,
+		"stopName": "F.Lli Fontana Gen. Cantore",
+		"street": "F.Lli Fontana Gen. Cantore"
+	},
+	{
+		"stopId": 163,
+		"stopName": "Piazza Dante Palazzo Pat",
+		"street": "Piazza Dante \"Palazzo Pat\""
+	},
+	{
+		"stopId": 165,
+		"stopName": "Piazza di Fiera",
+		"street": "Piazza di Fiera"
+	},
+	{
+		"stopId": 166,
+		"stopName": "S.Francesco Porta Nuova",
+		"street": "Trento-Via S.Francesco"
+	},
+	{
+		"stopId": 167,
+		"stopName": "Piazza Vicenza",
+		"street": "Piazza Vicenza"
+	},
+	{
+		"stopId": 168,
+		"stopName": "Piazza Vicenza",
+		"street": "Via Vicenza"
+	},
+	{
+		"stopId": 171,
+		"stopName": "Brescia Piedicastello",
+		"street": "Via Verruca"
+	},
+	{
+		"stopId": 172,
+		"stopName": "Brescia Piedicastello",
+		"street": "Brescia \"Piedicastello\""
+	},
+	{
+		"stopId": 174,
+		"stopName": "Ponte Lodovico",
+		"street": "Ponte Lodovico"
+	},
+	{
+		"stopId": 175,
+		"stopName": "Ponte Lodovico",
+		"street": "Ponte Lodovico"
+	},
+	{
+		"stopId": 176,
+		"stopName": "Venezia Port'aquila",
+		"street": "Via della Cervara"
+	},
+	{
+		"stopId": 177,
+		"stopName": "Cervara Port'aquila",
+		"street": "Cervara \"Port'aquila\""
+	},
+	{
+		"stopId": 178,
+		"stopName": "Cervara Port'aquila",
+		"street": "Cervara \"Port'aquila\""
+	},
+	{
+		"stopId": 179,
+		"stopName": "Spré Pinara",
+		"street": "Spré Pinara"
+	},
+	{
+		"stopId": 180,
+		"stopName": "Spré Pinara",
+		"street": "Spré Pinara"
+	},
+	{
+		"stopId": 181,
+		"stopName": "Povo Casa di Riposo",
+		"street": "Povo \"Casa di Riposo\""
+	},
+	{
+		"stopId": 182,
+		"stopName": "Povo Casa di Riposo",
+		"street": "Povo \"Casa di Riposo\""
+	},
+	{
+		"stopId": 183,
+		"stopName": "Povo Centro Civico",
+		"street": "Povo \"Centro Civico\""
+	},
+	{
+		"stopId": 184,
+		"stopName": "Povo Centro Civico",
+		"street": "Povo \"Centro Civico\""
+	},
+	{
+		"stopId": 185,
+		"stopName": "Povo S.Agata",
+		"street": "Povo S.Agata"
+	},
+	{
+		"stopId": 186,
+		"stopName": "Povo Piazza Manci",
+		"street": "Povo Piazza Manci"
+	},
+	{
+		"stopId": 187,
+		"stopName": "Povo Piazza Manci",
+		"street": "Povo Piazza Manci"
+	},
+	{
+		"stopId": 188,
+		"stopName": "Povo Fac. Scienze",
+		"street": "Povo \"Fac. Scienze\""
+	},
+	{
+		"stopId": 189,
+		"stopName": "Povo Fac. Scienze",
+		"street": "Povo \"Fac. Scienze\""
+	},
+	{
+		"stopId": 190,
+		"stopName": "Povo Polo Sociale",
+		"street": "Povo \"Polo Sociale\""
+	},
+	{
+		"stopId": 191,
+		"stopName": "Povo Polo Sociale",
+		"street": "Povo \"Polo Sociale\""
+	},
+	{
+		"stopId": 192,
+		"stopName": "Ravina Masere",
+		"street": "Ravina Masere"
+	},
+	{
+		"stopId": 193,
+		"stopName": "Ravina Masere",
+		"street": "Ravina Masere"
+	},
+	{
+		"stopId": 194,
+		"stopName": "Ravina Case Itea",
+		"street": "Ravina \"Case Itea\""
+	},
+	{
+		"stopId": 195,
+		"stopName": "Ravina Case Itea",
+		"street": "Ravina \"Case Itea\""
+	},
+	{
+		"stopId": 196,
+		"stopName": "Ravina Chiesa",
+		"street": "Ravina Chiesa"
+	},
+	{
+		"stopId": 197,
+		"stopName": "Ravina Piazza",
+		"street": "Ravina Piazza"
+	},
+	{
+		"stopId": 198,
+		"stopName": "Ravina Per Belvedere",
+		"street": "Ravina Per Belvedere"
+	},
+	{
+		"stopId": 199,
+		"stopName": "Ravina Per Belvedere",
+		"street": "Ravina Per Belvedere"
+	},
+	{
+		"stopId": 200,
+		"stopName": "Ravina Del Ponte",
+		"street": "Ravina Del Ponte"
+	},
+	{
+		"stopId": 201,
+		"stopName": "Ravina Del Ponte",
+		"street": "Ravina Del Ponte"
+	},
+	{
+		"stopId": 202,
+		"stopName": "Piazza Dante Pal. Regione",
+		"street": "Piazza Dante \"Pal. Regione\""
+	},
+	{
+		"stopId": 203,
+		"stopName": "Romagnano Nord",
+		"street": "Romagnano Nord"
+	},
+	{
+		"stopId": 204,
+		"stopName": "Romagnano Nord",
+		"street": "Romagnano Nord"
+	},
+	{
+		"stopId": 205,
+		"stopName": "Romagnano Fontanelle",
+		"street": "Romagnano Bivio"
+	},
+	{
+		"stopId": 206,
+		"stopName": "Romagnano Fontanelle",
+		"street": "Romagnano Fontanelle"
+	},
+	{
+		"stopId": 207,
+		"stopName": "Romagnano 7 Fontane",
+		"street": "Romagnano 7 Fontane"
+	},
+	{
+		"stopId": 208,
+		"stopName": "Romagnano Piazza Condini",
+		"street": "Romagnano Piazza Condini"
+	},
+	{
+		"stopId": 209,
+		"stopName": "Romagnano Sud",
+		"street": "Romagnano Sud"
+	},
+	{
+		"stopId": 210,
+		"stopName": "Romagnano Sud",
+		"street": "Romagnano Sud"
+	},
+	{
+		"stopId": 211,
+		"stopName": "Romagnano Rimoni",
+		"street": "Romagnano Rimoni"
+	},
+	{
+		"stopId": 212,
+		"stopName": "Romagnano Rimoni",
+		"street": "Romagnano Rimoni"
+	},
+	{
+		"stopId": 213,
+		"stopName": "Roncafort",
+		"street": "Via Luigi Caneppele"
+	},
+	{
+		"stopId": 214,
+		"stopName": "Ss 12 Zona Ind.Le Ftm",
+		"street": "Ss 12 \"Zona Ind.Le Ftm\""
+	},
+	{
+		"stopId": 215,
+		"stopName": "Povo Salé",
+		"street": "Povo Salé"
+	},
+	{
+		"stopId": 216,
+		"stopName": "Povo Salé",
+		"street": "Povo Salé"
+	},
+	{
+		"stopId": 217,
+		"stopName": "Verona S.Bartolameo",
+		"street": "Trento-S.Bartolameo"
+	},
+	{
+		"stopId": 218,
+		"stopName": "Verona S.Bartolameo",
+		"street": "Verona \"S.Bartolameo\""
+	},
+	{
+		"stopId": 219,
+		"stopName": "San Donà",
+		"street": "San Donà"
+	},
+	{
+		"stopId": 220,
+		"stopName": "San Donà Chiesa",
+		"street": "San Donà \"Chiesa\""
+	},
+	{
+		"stopId": 222,
+		"stopName": "San Donà",
+		"street": "San Donà"
+	},
+	{
+		"stopId": 223,
+		"stopName": "Lamar Sponda Trentina",
+		"street": "Lamar Sponda Trentina"
+	},
+	{
+		"stopId": 224,
+		"stopName": "San Lazzaro Ponte Avisio",
+		"street": "San Lazzaro Ponte Avisio"
+	},
+	{
+		"stopId": 226,
+		"stopName": "San Rocco Torricelle",
+		"street": "San Rocco Torricelle"
+	},
+	{
+		"stopId": 227,
+		"stopName": "San Rocco Piazza",
+		"street": "San Rocco Piazza"
+	},
+	{
+		"stopId": 228,
+		"stopName": "Piazza Madonna Delle Laste",
+		"street": "Piazza Madonna Delle Laste"
+	},
+	{
+		"stopId": 229,
+		"stopName": "Sopramonte Piazza Oveno",
+		"street": "Piazza Oveno"
+	},
+	{
+		"stopId": 230,
+		"stopName": "Sopramonte Bivio Baselga",
+		"street": "Sopramonte Bivio Baselga"
+	},
+	{
+		"stopId": 231,
+		"stopName": "Sopramonte Bivio Baselga",
+		"street": "Via del Sàles"
+	},
+	{
+		"stopId": 232,
+		"stopName": "Sopramonte Valle",
+		"street": "Sopramonte Sp85 Loc. La Valle"
+	},
+	{
+		"stopId": 233,
+		"stopName": "Sopramonte Valle",
+		"street": "Via della Vel del Molini"
+	},
+	{
+		"stopId": 234,
+		"stopName": "Sopramonte Novai",
+		"street": "Sopramonte \"Novai\""
+	},
+	{
+		"stopId": 235,
+		"stopName": "Sopramonte Piazza Oveno",
+		"street": "Sopramonte / P.za Centro"
+	},
+	{
+		"stopId": 236,
+		"stopName": "Sopramonte Bunaga",
+		"street": "Sopramonte \"Bunaga\""
+	},
+	{
+		"stopId": 237,
+		"stopName": "Sopramonte Bunaga",
+		"street": "Sopramonte \"Bunaga\""
+	},
+	{
+		"stopId": 238,
+		"stopName": "Spini di Gardolo",
+		"street": "Spini di Gardolo"
+	},
+	{
+		"stopId": 239,
+		"stopName": "Spini Linz",
+		"street": "Spini Linz"
+	},
+	{
+		"stopId": 240,
+		"stopName": "Spini Linz",
+		"street": "Spini Linz"
+	},
+	{
+		"stopId": 241,
+		"stopName": "Spini Monaco",
+		"street": "Spini Monaco"
+	},
+	{
+		"stopId": 242,
+		"stopName": "Spini Monaco",
+		"street": "Spini Monaco"
+	},
+	{
+		"stopId": 243,
+		"stopName": "Spré S.Lucia",
+		"street": "Spré S.Lucia"
+	},
+	{
+		"stopId": 244,
+		"stopName": "Spré S.Lucia",
+		"street": "Spré S.Lucia"
+	},
+	{
+		"stopId": 245,
+		"stopName": "Sp 85 Soraval",
+		"street": "Sp 85 \"Soraval\""
+	},
+	{
+		"stopId": 246,
+		"stopName": "Sp 85 Soraval",
+		"street": "Sp 85 \"Soraval\""
+	},
+	{
+		"stopId": 247,
+		"stopName": "Piazza Dante Stazione Fs",
+		"street": "Piazza Dante \"Stazione Fs\""
+	},
+	{
+		"stopId": 248,
+		"stopName": "Tavernaro Centro",
+		"street": "Tavernaro Centro"
+	},
+	{
+		"stopId": 249,
+		"stopName": "Tavernaro Centro",
+		"street": "Tavernaro Centro"
+	},
+	{
+		"stopId": 250,
+		"stopName": "Tavernaro Salet",
+		"street": "Tavernaro \"Salet\""
+	},
+	{
+		"stopId": 251,
+		"stopName": "Tavernaro Salet",
+		"street": "Tavernaro \"Salet\""
+	},
+	{
+		"stopId": 252,
+		"stopName": "Tavernaro Villa Clementi",
+		"street": "Tavernaro \"Villa Clementi\""
+	},
+	{
+		"stopId": 253,
+		"stopName": "Tavernaro Villa Clementi",
+		"street": "Tavernaro \"Villa Clementi\""
+	},
+	{
+		"stopId": 255,
+		"stopName": "Vela Alla Scala",
+		"street": "Vela Alla Scala"
+	},
+	{
+		"stopId": 256,
+		"stopName": "Vela Alla Scala",
+		"street": "Vela Alla Scala"
+	},
+	{
+		"stopId": 257,
+		"stopName": "Gardolo 4 Nov. Canova",
+		"street": "Gardolo 4 Nov. Canova"
+	},
+	{
+		"stopId": 258,
+		"stopName": "Gardolo 4 Nov. Piscina",
+		"street": "Gardolo 4 Nov. \"Piscina\""
+	},
+	{
+		"stopId": 259,
+		"stopName": "Gardolo 4 Nov. Soprasasso",
+		"street": "Gardolo 4 Nov. Soprasasso"
+	},
+	{
+		"stopId": 260,
+		"stopName": "Adamello Gorizia",
+		"street": "Adamello Gorizia"
+	},
+	{
+		"stopId": 261,
+		"stopName": "Gardolo Stazione Ftm",
+		"street": "Gardolo \"Stazione Ftm\""
+	},
+	{
+		"stopId": 262,
+		"stopName": "M. Rossi Stella D.Mattino",
+		"street": "M. Rossi \"Stella D.Mattino\""
+	},
+	{
+		"stopId": 263,
+		"stopName": "M. Rossi Stella D.Mattino",
+		"street": "M. Rossi \"Stella D.Mattino\""
+	},
+	{
+		"stopId": 264,
+		"stopName": "Al Desert Muredei",
+		"street": "Al Desert Muredei"
+	},
+	{
+		"stopId": 265,
+		"stopName": "Al Desert Muredei",
+		"street": "Al Desert Muredei"
+	},
+	{
+		"stopId": 266,
+		"stopName": "Al Desert Ragazzi Del '99",
+		"street": "Al Desert Ragazzi Del '99"
+	},
+	{
+		"stopId": 267,
+		"stopName": "Al Desert Ragazzi Del '99",
+		"street": "Al Desert Ragazzi Del '99"
+	},
+	{
+		"stopId": 269,
+		"stopName": "Apuleio Case Degasperi",
+		"street": "Apuleio \"Case Degasperi\""
+	},
+	{
+		"stopId": 270,
+		"stopName": "Apuleio Ponte S.Giorgio",
+		"street": "Apuleio \"Ponte S.Giorgio\""
+	},
+	{
+		"stopId": 271,
+		"stopName": "Asiago Cernidor",
+		"street": "Asiago \"Cernidor\""
+	},
+	{
+		"stopId": 272,
+		"stopName": "Asiago Bellevue",
+		"street": "Asiago \"Bellevue\""
+	},
+	{
+		"stopId": 273,
+		"stopName": "Asiago Bellevue",
+		"street": "Asiago \"Bellevue\""
+	},
+	{
+		"stopId": 274,
+		"stopName": "Asiago Cernidor",
+		"street": "Asiago \"Cernidor\""
+	},
+	{
+		"stopId": 275,
+		"stopName": "Castello Buonconsiglio",
+		"street": "Via Bernardo Clesio"
+	},
+	{
+		"stopId": 276,
+		"stopName": "Sanzio Castello",
+		"street": "Sanzio \"Castello\""
+	},
+	{
+		"stopId": 277,
+		"stopName": "Barbacovi Itg Pozzo",
+		"street": "Barbacovi \"Itg Pozzo\""
+	},
+	{
+		"stopId": 278,
+		"stopName": "Ss 47 Muralta",
+		"street": "Ss 47 Muralta"
+	},
+	{
+		"stopId": 279,
+		"stopName": "Martignano Capitel",
+		"street": "Martignano Capitel"
+	},
+	{
+		"stopId": 280,
+		"stopName": "Martignano Capitel",
+		"street": "Martignano Capitel"
+	},
+	{
+		"stopId": 281,
+		"stopName": "Bettini Nido Mad. Bianca",
+		"street": "Bettini \"Nido Mad. Bianca\""
+	},
+	{
+		"stopId": 282,
+		"stopName": "Bettini Nido Mad. Bianca",
+		"street": "Bettini \"Nido Mad. Bianca\""
+	},
+	{
+		"stopId": 283,
+		"stopName": "Bezzi Filzi",
+		"street": "Bezzi Filzi"
+	},
+	{
+		"stopId": 284,
+		"stopName": "Bolghera S.Antonio",
+		"street": "Via Bolghera / S. Antonio"
+	},
+	{
+		"stopId": 285,
+		"stopName": "Lamar Sottostazione Enel",
+		"street": "Lamar \"Sottostazione Enel\""
+	},
+	{
+		"stopId": 286,
+		"stopName": "Ss 12 Pioppeto",
+		"street": "Gardolo-Ss.12"
+	},
+	{
+		"stopId": 287,
+		"stopName": "Ss 12 Bivio Meano",
+		"street": "Ss 12 Bivio Meano"
+	},
+	{
+		"stopId": 288,
+		"stopName": "Ss 12 Canova",
+		"street": "Ss 12 Canova"
+	},
+	{
+		"stopId": 289,
+		"stopName": "Ss 12 Paludi",
+		"street": "Ss 12 \"Paludi\""
+	},
+	{
+		"stopId": 290,
+		"stopName": "Ss 12 Canova",
+		"street": "Ss 12 Canova"
+	},
+	{
+		"stopId": 291,
+		"stopName": "Brennero Bren Center",
+		"street": "Via del Brennero"
+	},
+	{
+		"stopId": 292,
+		"stopName": "Brennero Bren Center",
+		"street": "Via Valentina Zambra"
+	},
+	{
+		"stopId": 293,
+		"stopName": "Brennero Marconi",
+		"street": "Trento-Assoc. Artigiani"
+	},
+	{
+		"stopId": 294,
+		"stopName": "Brennero Malvasia",
+		"street": "Brennero Malvasia"
+	},
+	{
+		"stopId": 295,
+		"stopName": "Brennero Marconi",
+		"street": "Brennero Marconi"
+	},
+	{
+		"stopId": 296,
+		"stopName": "Brennero Magnete",
+		"street": "Brennero \"Magnete\""
+	},
+	{
+		"stopId": 297,
+		"stopName": "Brennero Ex Scalo Filzi",
+		"street": "Brennero \"Ex Scalo Filzi\""
+	},
+	{
+		"stopId": 298,
+		"stopName": "Brennero Ex Scalo Filzi",
+		"street": "Brennero \"Ex Scalo Filzi\""
+	},
+	{
+		"stopId": 300,
+		"stopName": "Brennero Tridente",
+		"street": "Brennero \"Tridente\""
+	},
+	{
+		"stopId": 301,
+		"stopName": "Brigata Acqui Itc Tambosi",
+		"street": "Brigata Acqui \"Itc Tambosi\""
+	},
+	{
+		"stopId": 303,
+		"stopName": "Roncafort Bettine",
+		"street": "Roncafort Bettine"
+	},
+	{
+		"stopId": 304,
+		"stopName": "Caneppele Goio",
+		"street": "Caneppele Goio"
+	},
+	{
+		"stopId": 305,
+		"stopName": "Caneppele Goio",
+		"street": "Caneppele Goio"
+	},
+	{
+		"stopId": 306,
+		"stopName": "Cervara Cereria",
+		"street": "Spalliera Cereria"
+	},
+	{
+		"stopId": 307,
+		"stopName": "Cervara Cereria",
+		"street": "Spalliera Cereria"
+	},
+	{
+		"stopId": 308,
+		"stopName": "Martignano Cesarini",
+		"street": "Martignano Cesarini"
+	},
+	{
+		"stopId": 309,
+		"stopName": "Martignano Cesarini",
+		"street": "Martignano Cesarini"
+	},
+	{
+		"stopId": 310,
+		"stopName": "Conci De Riccabona",
+		"street": "Conci De Riccabona"
+	},
+	{
+		"stopId": 311,
+		"stopName": "Conci De Riccabona",
+		"street": "Conci De Riccabona"
+	},
+	{
+		"stopId": 312,
+		"stopName": "Conci Ferrovia",
+		"street": "Conci Ferrovia"
+	},
+	{
+		"stopId": 313,
+		"stopName": "Conci Ferrovia",
+		"street": "Conci Ferrovia"
+	},
+	{
+		"stopId": 314,
+		"stopName": "Degasperi Anna Frank",
+		"street": "Degasperi Anna Frank"
+	},
+	{
+		"stopId": 315,
+		"stopName": "Degasperi Anna Frank",
+		"street": "Degasperi Anna Frank"
+	},
+	{
+		"stopId": 316,
+		"stopName": "Degasperi Palazzo Stella",
+		"street": "Degasperi \"Palazzo Stella\""
+	},
+	{
+		"stopId": 317,
+		"stopName": "Degasperi Palazzo Stella",
+		"street": "Degasperi \"Palazzo Stella\""
+	},
+	{
+		"stopId": 318,
+		"stopName": "Degasperi Big Center",
+		"street": "Degasperi \"Big Center\""
+	},
+	{
+		"stopId": 319,
+		"stopName": "Degasperi Big Center",
+		"street": "Degasperi \"Big Center\""
+	},
+	{
+		"stopId": 320,
+		"stopName": "Degasperi La Clarina",
+		"street": "Degasperi La Clarina"
+	},
+	{
+		"stopId": 321,
+		"stopName": "Degasperi La Clarina",
+		"street": "Degasperi La Clarina"
+	},
+	{
+		"stopId": 322,
+		"stopName": "Dei Mille Villa Igea",
+		"street": "Dei Mille \"Villa Igea\""
+	},
+	{
+		"stopId": 323,
+		"stopName": "Dei Mille Villa Igea",
+		"street": "Dei Mille \"Villa Igea\""
+	},
+	{
+		"stopId": 324,
+		"stopName": "Villazzano Villa De Mersi",
+		"street": "Villazzano \"Villa De Mersi\""
+	},
+	{
+		"stopId": 325,
+		"stopName": "Martignano Costiole",
+		"street": "Martignano Costiole"
+	},
+	{
+		"stopId": 326,
+		"stopName": "Martignano Costiole",
+		"street": "Martignano Costiole"
+	},
+	{
+		"stopId": 327,
+		"stopName": "Martignano Castori",
+		"street": "Martignano Castori"
+	},
+	{
+		"stopId": 328,
+		"stopName": "Martignano Castori",
+		"street": "Martignano Castori"
+	},
+	{
+		"stopId": 329,
+		"stopName": "Dos Trento Mariano",
+		"street": "Dos Trento Mariano"
+	},
+	{
+		"stopId": 330,
+		"stopName": "Dos Trento Apuleio",
+		"street": "Dos Trento Apuleio"
+	},
+	{
+		"stopId": 331,
+		"stopName": "Ponte S.Giorgio",
+		"street": "Ponte S.Giorgio"
+	},
+	{
+		"stopId": 333,
+		"stopName": "F.Lli Fontana Gen. Cantore",
+		"street": "F.Lli Fontana Gen. Cantore"
+	},
+	{
+		"stopId": 334,
+		"stopName": "F.Lli Fontana Oberziner",
+		"street": "F.Lli Fontana Oberziner"
+	},
+	{
+		"stopId": 335,
+		"stopName": "Fermi La Clarina",
+		"street": "Fermi La Clarina"
+	},
+	{
+		"stopId": 338,
+		"stopName": "Fogazzaro Piscina",
+		"street": "Fogazzaro \"Piscina\""
+	},
+	{
+		"stopId": 339,
+		"stopName": "Fogazzaro Piscina",
+		"street": "Fogazzaro \"Piscina\""
+	},
+	{
+		"stopId": 340,
+		"stopName": "Ss 349 Pozzata",
+		"street": "Ss 349 Pozzata"
+	},
+	{
+		"stopId": 342,
+		"stopName": "Gandhi Parco Anna Frank",
+		"street": "Gandhi \"Parco Anna Frank\""
+	},
+	{
+		"stopId": 344,
+		"stopName": "Gerola Ospedale S.Chiara",
+		"street": "Gerola \"Ospedale S.Chiara\""
+	},
+	{
+		"stopId": 345,
+		"stopName": "Ghiaie Monte Baldo",
+		"street": "Ghiaie Monte Baldo"
+	},
+	{
+		"stopId": 346,
+		"stopName": "Ghiaie Giardinerie",
+		"street": "Ghiaie \"Giardinerie\""
+	},
+	{
+		"stopId": 347,
+		"stopName": "Giovanelli Osp. S.Camillo",
+		"street": "Giovanelli \"Osp. S.Camillo\""
+	},
+	{
+		"stopId": 348,
+		"stopName": "Giusti Pascoli",
+		"street": "Giusti Pascoli"
+	},
+	{
+		"stopId": 349,
+		"stopName": "Giusti Arcivescovile",
+		"street": "Giusti \"Arcivescovile\""
+	},
+	{
+		"stopId": 350,
+		"stopName": "Gocciadoro Arcate",
+		"street": "Gocciadoro \"Arcate\""
+	},
+	{
+		"stopId": 351,
+		"stopName": "Gocciadoro Poliambulatori",
+		"street": "Gocciadoro \"Poliambulatori\""
+	},
+	{
+		"stopId": 352,
+		"stopName": "Gorizia Adamello",
+		"street": "Gorizia Adamello"
+	},
+	{
+		"stopId": 353,
+		"stopName": "Gramsci Materna La Clarina",
+		"street": "Gramsci \"Materna La Clarina\""
+	},
+	{
+		"stopId": 354,
+		"stopName": "Gramsci Einaudi",
+		"street": "Gramsci Einaudi"
+	},
+	{
+		"stopId": 355,
+		"stopName": "Grazioli Brigata Acqui",
+		"street": "Grazioli Brigata Acqui"
+	},
+	{
+		"stopId": 356,
+		"stopName": "Guardini Gilli",
+		"street": "Guardini Gilli"
+	},
+	{
+		"stopId": 357,
+		"stopName": "Guardini Gilli",
+		"street": "Guardini Gilli"
+	},
+	{
+		"stopId": 358,
+		"stopName": "Lunelli Aci",
+		"street": "Lunelli Centochiavi"
+	},
+	{
+		"stopId": 360,
+		"stopName": "Maccani Rotatoria",
+		"street": "Maccani \"Rotatoria\""
+	},
+	{
+		"stopId": 361,
+		"stopName": "Maccani Commercio",
+		"street": "Maccani Commercio"
+	},
+	{
+		"stopId": 362,
+		"stopName": "Maccani Commercio",
+		"street": "Maccani Commercio"
+	},
+	{
+		"stopId": 363,
+		"stopName": "Maccani Campotrentino",
+		"street": "Maccani Campotrentino"
+	},
+	{
+		"stopId": 364,
+		"stopName": "Maccani Campotrentino",
+		"street": "Maccani Campotrentino"
+	},
+	{
+		"stopId": 365,
+		"stopName": "Maccani Abondi",
+		"street": "Maccani Abondi"
+	},
+	{
+		"stopId": 366,
+		"stopName": "Maccani Abondi",
+		"street": "Maccani Abondi"
+	},
+	{
+		"stopId": 368,
+		"stopName": "Maccani Polizia Locale",
+		"street": "Maccani \"Polizia Locale\""
+	},
+	{
+		"stopId": 369,
+		"stopName": "Maccani Polizia Locale",
+		"street": "Maccani \"Polizia Locale\""
+	},
+	{
+		"stopId": 370,
+		"stopName": "Maccani Rotatoria",
+		"street": "Maccani \"Rotatoria\""
+	},
+	{
+		"stopId": 371,
+		"stopName": "Maccani Ex Sloi",
+		"street": "Maccani \"Ex Sloi\""
+	},
+	{
+		"stopId": 372,
+		"stopName": "Maccani Ex Sloi",
+		"street": "Maccani \"Ex Sloi\""
+	},
+	{
+		"stopId": 374,
+		"stopName": "Marconi Solteri",
+		"street": "Marconi Solteri"
+	},
+	{
+		"stopId": 375,
+		"stopName": "Marconi Solteri",
+		"street": "Marconi Solteri"
+	},
+	{
+		"stopId": 376,
+		"stopName": "Villazzano Marzola",
+		"street": "Villazzano Marzola"
+	},
+	{
+		"stopId": 377,
+		"stopName": "Villazzano Marzola",
+		"street": "Villazzano Marzola"
+	},
+	{
+		"stopId": 378,
+		"stopName": "Villazzano Giordano",
+		"street": "Villazzano Giordano"
+	},
+	{
+		"stopId": 379,
+		"stopName": "Villazzano Giordano",
+		"street": "Villazzano Giordano"
+	},
+	{
+		"stopId": 380,
+		"stopName": "Mattioli Vittorio Veneto",
+		"street": "Mattioli Vittorio Veneto"
+	},
+	{
+		"stopId": 382,
+		"stopName": "Menguzzato Al Casteller",
+		"street": "Menguzzato Al Casteller"
+	},
+	{
+		"stopId": 383,
+		"stopName": "Menguzzato Centro Civico",
+		"street": "Menguzzato \"Centro Civico\""
+	},
+	{
+		"stopId": 384,
+		"stopName": "Menguzzato Centro Civico",
+		"street": "Menguzzato \"Centro Civico\""
+	},
+	{
+		"stopId": 385,
+		"stopName": "Menguzzato Al Casteller",
+		"street": "Menguzzato Al Casteller"
+	},
+	{
+		"stopId": 386,
+		"stopName": "Milano A Prato",
+		"street": "Milano A Prato"
+	},
+	{
+		"stopId": 387,
+		"stopName": "Milano A Prato",
+		"street": "Via Milano"
+	},
+	{
+		"stopId": 388,
+		"stopName": "Missioni Africane",
+		"street": "Missioni Africane"
+	},
+	{
+		"stopId": 389,
+		"stopName": "Quattro Strade",
+		"street": "Quattro Strade"
+	},
+	{
+		"stopId": 390,
+		"stopName": "Quattro Strade",
+		"street": "Quattro Strade"
+	},
+	{
+		"stopId": 391,
+		"stopName": "Missioni Africane",
+		"street": "Missioni Africane"
+	},
+	{
+		"stopId": 392,
+		"stopName": "Monte Baldo Ghiaie",
+		"street": "Monte Baldo Ghiaie"
+	},
+	{
+		"stopId": 393,
+		"stopName": "Muredei Prati",
+		"street": "Muredei Prati"
+	},
+	{
+		"stopId": 395,
+		"stopName": "Muredei Benevoli",
+		"street": "Muredei Benevoli"
+	},
+	{
+		"stopId": 397,
+		"stopName": "Oberziner Alpini",
+		"street": "Oberziner Alpini"
+	},
+	{
+		"stopId": 400,
+		"stopName": "Pasubio Adamello",
+		"street": "Pasubio Adamello"
+	},
+	{
+		"stopId": 401,
+		"stopName": "F.Lli Perini 3 Novembre",
+		"street": "Trento-Via Perini"
+	},
+	{
+		"stopId": 402,
+		"stopName": "Piave Parco S.Chiara",
+		"street": "Piave \"Parco S.Chiara\""
+	},
+	{
+		"stopId": 403,
+		"stopName": "Romagnosi Vannetti",
+		"street": "Romagnosi Vannetti"
+	},
+	{
+		"stopId": 404,
+		"stopName": "Rosmini Cimitero / Muse",
+		"street": "Rosmini \"Cimitero\" / Muse"
+	},
+	{
+		"stopId": 405,
+		"stopName": "Rosmini Cimitero / Muse",
+		"street": "Rosmini \"Cimitero\""
+	},
+	{
+		"stopId": 406,
+		"stopName": "Rosmini S.Maria Maggiore",
+		"street": "Via Antonio Rosmini"
+	},
+	{
+		"stopId": 407,
+		"stopName": "Rosmini S.Maria Maggiore",
+		"street": "Rosmini S.Maria Maggiore"
+	},
+	{
+		"stopId": 408,
+		"stopName": "3 Nov. Centro S.Chiara",
+		"street": "Corso 3 Novembre 1918"
+	},
+	{
+		"stopId": 409,
+		"stopName": "3 Nov. Centro S.Chiara",
+		"street": "3 Nov. \"Centro S.Chiara\""
+	},
+	{
+		"stopId": 410,
+		"stopName": "S.Francesco Porta Nuova",
+		"street": "Viale San Francesco d'Assisi"
+	},
+	{
+		"stopId": 412,
+		"stopName": "S.Pio X Matteotti",
+		"street": "S.Pio X Matteotti"
+	},
+	{
+		"stopId": 413,
+		"stopName": "S.Pio X Largo Prati",
+		"street": "S.Pio X Largo Prati"
+	},
+	{
+		"stopId": 414,
+		"stopName": "S.Pio X Benevoli",
+		"street": "S.Pio X Benevoli"
+	},
+	{
+		"stopId": 415,
+		"stopName": "S.Pio X Benevoli",
+		"street": "S.Pio X Benevoli"
+	},
+	{
+		"stopId": 416,
+		"stopName": "Sanseverino S.Nicolò",
+		"street": "Sanseverino S.Nicolò"
+	},
+	{
+		"stopId": 417,
+		"stopName": "Sanseverino S.Nicolò",
+		"street": "Sanseverino S.Nicolò"
+	},
+	{
+		"stopId": 420,
+		"stopName": "Segantini Centa",
+		"street": "Segantini Centa"
+	},
+	{
+		"stopId": 421,
+		"stopName": "Segantini Dogana",
+		"street": "Segantini Dogana"
+	},
+	{
+		"stopId": 422,
+		"stopName": "Solteri Piazzina",
+		"street": "Solteri \"Piazzina\""
+	},
+	{
+		"stopId": 423,
+		"stopName": "Solteri Piazzina",
+		"street": "Solteri \"Piazzina\""
+	},
+	{
+		"stopId": 424,
+		"stopName": "Solteri Largaiolli",
+		"street": "Solteri Largaiolli"
+	},
+	{
+		"stopId": 425,
+		"stopName": "Solteri Largaiolli",
+		"street": "Solteri Largaiolli"
+	},
+	{
+		"stopId": 426,
+		"stopName": "Solteri Nido La Trottola",
+		"street": "Solteri \"Nido La Trottola\""
+	},
+	{
+		"stopId": 427,
+		"stopName": "Solteri Nido La Trottola",
+		"street": "Solteri \"Nido La Trottola\""
+	},
+	{
+		"stopId": 428,
+		"stopName": "Gardolo Soprasasso",
+		"street": "Gardolo Soprasasso"
+	},
+	{
+		"stopId": 429,
+		"stopName": "Gardolo Soprasasso",
+		"street": "Gardolo Soprasasso"
+	},
+	{
+		"stopId": 430,
+		"stopName": "Gardolo Cimitero",
+		"street": "Gardolo \"Cimitero\""
+	},
+	{
+		"stopId": 431,
+		"stopName": "Parco Del Dos Trent",
+		"street": "Parco Del Dos Trent"
+	},
+	{
+		"stopId": 432,
+		"stopName": "Parco Del Dos Trent",
+		"street": "Parco Del Dos Trent"
+	},
+	{
+		"stopId": 433,
+		"stopName": "Brescia Divisioni Alpine",
+		"street": "Brescia Divisioni Alpine"
+	},
+	{
+		"stopId": 434,
+		"stopName": "Brescia Divisioni Alpine",
+		"street": "Brescia Divisioni Alpine"
+	},
+	{
+		"stopId": 435,
+		"stopName": "Vela S.Giorgio",
+		"street": "Vela S.Giorgio"
+	},
+	{
+		"stopId": 436,
+		"stopName": "Vela S.Giorgio",
+		"street": "Vela S.Giorgio"
+	},
+	{
+		"stopId": 437,
+		"stopName": "Dos Trento Centro Sportivo",
+		"street": "Dos Trento \"Centro Sportivo\""
+	},
+	{
+		"stopId": 438,
+		"stopName": "Dos Trento Centro Sportivo",
+		"street": "Dos Trento \"Centro Sportivo\""
+	},
+	{
+		"stopId": 439,
+		"stopName": "Sp 90 Maso Prudenza",
+		"street": "Sp 90 \"Maso Prudenza\""
+	},
+	{
+		"stopId": 440,
+		"stopName": "Sp 90 Maso Prudenza",
+		"street": "Sp 90 \"Maso Prudenza\""
+	},
+	{
+		"stopId": 441,
+		"stopName": "Maso Rossi Aichner",
+		"street": "M. Rossi / Todesca"
+	},
+	{
+		"stopId": 443,
+		"stopName": "Torre Verde Galasso",
+		"street": "Torre Verde Galasso"
+	},
+	{
+		"stopId": 444,
+		"stopName": "Travai Al Nuoto / Muse",
+		"street": "Travai Al Nuoto / Muse"
+	},
+	{
+		"stopId": 446,
+		"stopName": "Vittorio Veneto S.Giuseppe",
+		"street": "Via Vittorio Veneto/ S. Giuseppe"
+	},
+	{
+		"stopId": 447,
+		"stopName": "Vittorio Veneto Lorenzoni",
+		"street": "Vittorio Veneto Lorenzoni"
+	},
+	{
+		"stopId": 448,
+		"stopName": "Largo Prati",
+		"street": "Via Vittorio Veneto"
+	},
+	{
+		"stopId": 449,
+		"stopName": "Largo Prati",
+		"street": "Via Monte Baldo"
+	},
+	{
+		"stopId": 450,
+		"stopName": "Venezia Cave",
+		"street": "Venezia Cave"
+	},
+	{
+		"stopId": 451,
+		"stopName": "Venezia Cave",
+		"street": "Venezia Cave"
+	},
+	{
+		"stopId": 452,
+		"stopName": "Venezia Corallo",
+		"street": "Venezia \"Corallo\""
+	},
+	{
+		"stopId": 453,
+		"stopName": "Venezia Corallo",
+		"street": "Via Venezia"
+	},
+	{
+		"stopId": 454,
+		"stopName": "Vicenza Montello",
+		"street": "Vicenza Montello"
+	},
+	{
+		"stopId": 455,
+		"stopName": "Vicenza Montello",
+		"street": "Vicenza Montello"
+	},
+	{
+		"stopId": 456,
+		"stopName": "Zambra Ist. D'arte Vittoria",
+		"street": "Zambra \"Ist. D'arte Vittoria\""
+	},
+	{
+		"stopId": 457,
+		"stopName": "Verona Fogazzaro",
+		"street": "Verona Fogazzaro"
+	},
+	{
+		"stopId": 458,
+		"stopName": "Verona Fogazzaro",
+		"street": "Viale Verona"
+	},
+	{
+		"stopId": 459,
+		"stopName": "Verona Palazzo Stella",
+		"street": "Verona \"Palazzo Stella\""
+	},
+	{
+		"stopId": 460,
+		"stopName": "Verona Menguzzato",
+		"street": "Verona Menguzzato"
+	},
+	{
+		"stopId": 461,
+		"stopName": "Verona Questura",
+		"street": "Verona \"Questura\""
+	},
+	{
+		"stopId": 462,
+		"stopName": "Verona Einaudi",
+		"street": "Verona Einaudi"
+	},
+	{
+		"stopId": 463,
+		"stopName": "Verona Einaudi",
+		"street": "Verona Einaudi"
+	},
+	{
+		"stopId": 464,
+		"stopName": "Verona Questura",
+		"street": "Viale Verona / Questura"
+	},
+	{
+		"stopId": 466,
+		"stopName": "3 Nov. Ponte Cavalleggeri",
+		"street": "3 Nov. \"Ponte Cavalleggeri\""
+	},
+	{
+		"stopId": 467,
+		"stopName": "Vigo Meano Rio Papa",
+		"street": "Vigo Meano Rio Papa"
+	},
+	{
+		"stopId": 468,
+		"stopName": "Vigo Meano Rio Papa",
+		"street": "Vigo Meano Rio Papa"
+	},
+	{
+		"stopId": 469,
+		"stopName": "Vigo Meano Piazza Stainer",
+		"street": "Vigo Meano Piazza Stainer"
+	},
+	{
+		"stopId": 470,
+		"stopName": "Vigo Meano Piazza Stainer",
+		"street": "Vigo Meano Piazza Stainer"
+	},
+	{
+		"stopId": 471,
+		"stopName": "Gazzadina Al Molar",
+		"street": "Gazzadina Al Molar"
+	},
+	{
+		"stopId": 472,
+		"stopName": "Gazzadina Al Molar",
+		"street": "Gazzadina Al Molar"
+	},
+	{
+		"stopId": 473,
+		"stopName": "Villazzano Villa Belfonte",
+		"street": "Villazzano Villa Belfonte"
+	},
+	{
+		"stopId": 474,
+		"stopName": "Villazzano Villa Belfonte",
+		"street": "Villazzano Villa Belfonte"
+	},
+	{
+		"stopId": 475,
+		"stopName": "Villazzano Villa Tambosi",
+		"street": "Villazzano \"Villa Tambosi\""
+	},
+	{
+		"stopId": 476,
+		"stopName": "Villazzano Villa Tambosi",
+		"street": "Villazzano \"Villa Tambosi\""
+	},
+	{
+		"stopId": 477,
+		"stopName": "Villamontagna P.Predaroi",
+		"street": "Villamontagna P.Predaroi"
+	},
+	{
+		"stopId": 478,
+		"stopName": "Villamontagna Michei",
+		"street": "Villamontagna \"Michei\""
+	},
+	{
+		"stopId": 479,
+		"stopName": "Villamontagna Michei",
+		"street": "Villamontagna \"Michei\""
+	},
+	{
+		"stopId": 481,
+		"stopName": "Villazzano Chiesa",
+		"street": "Villazzano \"Chiesa\""
+	},
+	{
+		"stopId": 484,
+		"stopName": "Villazzano Piazza Nicolini",
+		"street": "Villazzano Piazza Nicolini"
+	},
+	{
+		"stopId": 485,
+		"stopName": "Villazzano Piazza Nicolini",
+		"street": "Villazzano Piazza Nicolini"
+	},
+	{
+		"stopId": 486,
+		"stopName": "Villazzano Banala",
+		"street": "Villazzano Banala"
+	},
+	{
+		"stopId": 488,
+		"stopName": "Conci Villazzano 3",
+		"street": "Conci \"Villazzano 3\""
+	},
+	{
+		"stopId": 490,
+		"stopName": "Zell Marnighe",
+		"street": "Zell Marnighe"
+	},
+	{
+		"stopId": 491,
+		"stopName": "Zell Marnighe",
+		"street": "Zell Marnighe"
+	},
+	{
+		"stopId": 492,
+		"stopName": "Spini Officine",
+		"street": "Spini \"Officine\""
+	},
+	{
+		"stopId": 493,
+		"stopName": "Spini Officine",
+		"street": "Spini \"Officine\""
+	},
+	{
+		"stopId": 494,
+		"stopName": "Spini Zona Ind.Le Ftm",
+		"street": "Spini \"Zona Ind.Le Ftm\""
+	},
+	{
+		"stopId": 495,
+		"stopName": "Spini Zona Ind.Le Ftm",
+		"street": "Spini \"Zona Ind.Le Ftm\""
+	},
+	{
+		"stopId": 496,
+		"stopName": "Spini Klagenfurt",
+		"street": "Spini Klagenfurt"
+	},
+	{
+		"stopId": 497,
+		"stopName": "Spini Klagenfurt",
+		"street": "Spini Klagenfurt"
+	},
+	{
+		"stopId": 524,
+		"stopName": "3 Nov. Ponte Cavalleggeri",
+		"street": "Corso 3 Novembre 1918"
+	},
+	{
+		"stopId": 527,
+		"stopName": "Meano Centro Civico",
+		"street": "Meano \"Centro Civico\""
+	},
+	{
+		"stopId": 2120,
+		"stopName": "Zambra Top Center",
+		"street": "Via del Brennero"
+	},
+	{
+		"stopId": 2189,
+		"stopName": "Piazza Dante Dogana",
+		"street": "Piazza Dante \"Dogana\""
+	},
+	{
+		"stopId": 2377,
+		"stopName": "Sp 76 Bivio S.Lazzaro",
+		"street": "Sp 76 Bivio S.Lazzaro"
+	},
+	{
+		"stopId": 2380,
+		"stopName": "Trener 3 Torri Pat",
+		"street": "Trener \"3 Torri Pat\""
+	},
+	{
+		"stopId": 2383,
+		"stopName": "Guardini Centochiavi",
+		"street": "Guardini \"Centochiavi\""
+	},
+	{
+		"stopId": 2384,
+		"stopName": "Zambra Top Center",
+		"street": "Trento-Via Zambra-Top Center"
+	},
+	{
+		"stopId": 2385,
+		"stopName": "Zambra Ist. D'arte Vittoria",
+		"street": "Via Valentina Zambra"
+	},
+	{
+		"stopId": 2386,
+		"stopName": "Meano Centro Civico",
+		"street": "Meano \"Centro Civico\""
+	},
+	{
+		"stopId": 2389,
+		"stopName": "Centochiavi Lunelli",
+		"street": "Centochiavi Lunelli"
+	},
+	{
+		"stopId": 2404,
+		"stopName": "Romagnano 7 Fontane",
+		"street": "Romagnano 7 Fontane"
+	},
+	{
+		"stopId": 2405,
+		"stopName": "Travai Piazza Fiera",
+		"street": "Travai Piazza Fiera"
+	},
+	{
+		"stopId": 2406,
+		"stopName": "Ghiaie Giardinerie",
+		"street": "Ghiaie \"Giardinerie\""
+	},
+	{
+		"stopId": 2407,
+		"stopName": "Ghiaie Monte Baldo",
+		"street": "Ghiaie Monte Baldo"
+	},
+	{
+		"stopId": 2408,
+		"stopName": "Parcheggio Zuffo",
+		"street": "Parcheggio Zuffo"
+	},
+	{
+		"stopId": 2409,
+		"stopName": "Cavalcavia S.Lorenzo",
+		"street": "Cavalcavia S.Lorenzo"
+	},
+	{
+		"stopId": 2410,
+		"stopName": "Parcheggio Monte Baldo",
+		"street": "Parcheggio Monte Baldo"
+	},
+	{
+		"stopId": 2412,
+		"stopName": "Piazzale A22",
+		"street": "Piazzale A22"
+	},
+	{
+		"stopId": 2418,
+		"stopName": "Ss 12 Pioppeto",
+		"street": "Gardolo-Via Bolzano"
+	},
+	{
+		"stopId": 2419,
+		"stopName": "Ss 12 S.Anna",
+		"street": "Ss 12 S.Anna"
+	},
+	{
+		"stopId": 2422,
+		"stopName": "Roncafort Asilo",
+		"street": "Via Luigi Caneppele"
+	},
+	{
+		"stopId": 2423,
+		"stopName": "Maso Rossi Aichner",
+		"street": "Maso Rossi Aichner"
+	},
+	{
+		"stopId": 2424,
+		"stopName": "S.Lorenzo Funivia",
+		"street": "S.Lorenzo \"Funivia\""
+	},
+	{
+		"stopId": 2426,
+		"stopName": "S.Lorenzo Funivia",
+		"street": "S.Lorenzo \"Funivia\""
+	},
+	{
+		"stopId": 2430,
+		"stopName": "Sanseverino Monte Baldo",
+		"street": "Sanseverino Monte Baldo"
+	},
+	{
+		"stopId": 2435,
+		"stopName": "Brescia Ca Dei Gai",
+		"street": "Brescia \"Ca Dei Gai\""
+	},
+	{
+		"stopId": 2437,
+		"stopName": "Ravina Della Croce",
+		"street": "Ravina Della Croce"
+	},
+	{
+		"stopId": 2438,
+		"stopName": "Ss 12 Talvera",
+		"street": "Ss 12 Talvera"
+	},
+	{
+		"stopId": 2446,
+		"stopName": "Ghiaie Zona Ind.Le Ftm",
+		"street": "Ghiaie \"Zona Ind.Le Ftm\""
+	},
+	{
+		"stopId": 2447,
+		"stopName": "Ghiaie Salisburgo",
+		"street": "Ghiaie Salisburgo"
+	},
+	{
+		"stopId": 2448,
+		"stopName": "Ghiaie Sc. Materna",
+		"street": "Ghiaie \"Sc. Materna\""
+	},
+	{
+		"stopId": 2449,
+		"stopName": "Spini Praga",
+		"street": "Spini Praga"
+	},
+	{
+		"stopId": 2453,
+		"stopName": "Palazzine Maso S.Antonio",
+		"street": "Palazzine Maso S.Antonio"
+	},
+	{
+		"stopId": 2454,
+		"stopName": "Crosare Officina",
+		"street": "Crosare Officina"
+	},
+	{
+		"stopId": 2455,
+		"stopName": "Crosare Parcheggio",
+		"street": "Crosare Parcheggio"
+	},
+	{
+		"stopId": 2457,
+		"stopName": "Gardolo Castel di Gardolo",
+		"street": "Gardolo Castel di Gardolo"
+	},
+	{
+		"stopId": 2458,
+		"stopName": "Gardolo Castel di Gardolo",
+		"street": "Gardolo Castel di Gardolo"
+	},
+	{
+		"stopId": 2470,
+		"stopName": "Jedin Sanseverino",
+		"street": "Jedin Sanseverino"
+	},
+	{
+		"stopId": 2472,
+		"stopName": "Lamar Via Rossa",
+		"street": "Lamar \"Via Rossa\""
+	},
+	{
+		"stopId": 2483,
+		"stopName": "Sopramonte Campra",
+		"street": "Sopramonte \"Campra\""
+	},
+	{
+		"stopId": 2484,
+		"stopName": "Sopramonte Campra",
+		"street": "Sopramonte \"Campra\""
+	},
+	{
+		"stopId": 2485,
+		"stopName": "Brescia Ca Dei Gai",
+		"street": "Brescia \"Ca Dei Gai\""
+	},
+	{
+		"stopId": 2488,
+		"stopName": "Pranzelores Top Center",
+		"street": "Pranzelores \"Top Center\""
+	},
+	{
+		"stopId": 2489,
+		"stopName": "Pranzelores Tridente",
+		"street": "Pranzelores \"Tridente\""
+	},
+	{
+		"stopId": 2490,
+		"stopName": "Povo Pantè",
+		"street": "Povo Pantè"
+	},
+	{
+		"stopId": 2491,
+		"stopName": "Roncafort Caproni",
+		"street": "Roncafort Caproni"
+	},
+	{
+		"stopId": 2492,
+		"stopName": "Roncafort Bettine",
+		"street": "Roncafort Bettine"
+	},
+	{
+		"stopId": 2497,
+		"stopName": "Ponte di Ravina",
+		"street": "Ponte di Ravina"
+	},
+	{
+		"stopId": 2498,
+		"stopName": "Ponte di Ravina",
+		"street": "Ponte di Ravina"
+	},
+	{
+		"stopId": 2499,
+		"stopName": "Villazzano Chiesa",
+		"street": "Villazzano / Chiesa"
+	},
+	{
+		"stopId": 2500,
+		"stopName": "Ss 45 Scala",
+		"street": "Ss 45 \"Scala\""
+	},
+	{
+		"stopId": 2501,
+		"stopName": "Sopramonte M.Petoci",
+		"street": "Sopramonte \"M.Petoci\""
+	},
+	{
+		"stopId": 2502,
+		"stopName": "Vigo Meano Don Perugini",
+		"street": "Vigo Meano Don Perugini"
+	},
+	{
+		"stopId": 2505,
+		"stopName": "Cognola Chiesa",
+		"street": "Cognola \"Chiesa\""
+	},
+	{
+		"stopId": 2506,
+		"stopName": "Muralta Valsugana",
+		"street": "Muralta Valsugana"
+	},
+	{
+		"stopId": 2520,
+		"stopName": "Verdi Inama",
+		"street": "Verdi Inama"
+	},
+	{
+		"stopId": 2521,
+		"stopName": "Gazzadina Le Case Nòve",
+		"street": "Gazzadina Le Case Nòve"
+	},
+	{
+		"stopId": 2522,
+		"stopName": "Gazzadina Del Porfido",
+		"street": "Gazzadina Del Porfido"
+	},
+	{
+		"stopId": 2524,
+		"stopName": "Cimirlo",
+		"street": "Cimirlo"
+	},
+	{
+		"stopId": 2525,
+		"stopName": "Eremo",
+		"street": "Eremo"
+	},
+	{
+		"stopId": 2526,
+		"stopName": "Celva",
+		"street": "Celva"
+	},
+	{
+		"stopId": 2527,
+		"stopName": "Via Eremo",
+		"street": "Via Eremo"
+	},
+	{
+		"stopId": 2528,
+		"stopName": "Maso di Brenz",
+		"street": "Maso di Brenz"
+	},
+	{
+		"stopId": 2529,
+		"stopName": "Borino Civ.69",
+		"street": "Borino Civ.69"
+	},
+	{
+		"stopId": 2530,
+		"stopName": "Borino",
+		"street": "Borino"
+	},
+	{
+		"stopId": 2532,
+		"stopName": "Borino Civ.69",
+		"street": "Borino Civ.69"
+	},
+	{
+		"stopId": 2533,
+		"stopName": "Maso di Brenz",
+		"street": "Maso di Brenz"
+	},
+	{
+		"stopId": 2534,
+		"stopName": "Via Eremo",
+		"street": "Via Eremo"
+	},
+	{
+		"stopId": 2535,
+		"stopName": "Eremo",
+		"street": "Eremo"
+	},
+	{
+		"stopId": 2537,
+		"stopName": "Verona Big Center",
+		"street": "Verona \"Big Center\""
+	},
+	{
+		"stopId": 2538,
+		"stopName": "Verona Big Center",
+		"street": "Verona \"Big Center\""
+	},
+	{
+		"stopId": 2549,
+		"stopName": "Povo Polo Sociale Cap.",
+		"street": "Povo \"Polo Sociale\" Cap."
+	},
+	{
+		"stopId": 2663,
+		"stopName": "Gardolo 4 Nov. 2 Giugno",
+		"street": "Gardolo 4 Nov. 2 Giugno"
+	},
+	{
+		"stopId": 2664,
+		"stopName": "Spini Loghét",
+		"street": "Spini Loghét"
+	},
+	{
+		"stopId": 2665,
+		"stopName": "Spini Loghét",
+		"street": "Spini Loghét"
+	},
+	{
+		"stopId": 2668,
+		"stopName": "Fersina Zona Artigianale",
+		"street": "Fersina \"Zona Artigianale\""
+	},
+	{
+		"stopId": 2669,
+		"stopName": "Fersina Zona Sportiva",
+		"street": "Fersina \"Zona Sportiva\""
+	},
+	{
+		"stopId": 2670,
+		"stopName": "Piazza Cappuccini",
+		"street": "Piazza Cappuccini"
+	},
+	{
+		"stopId": 2671,
+		"stopName": "Avancini Laste",
+		"street": "Avancini Laste"
+	},
+	{
+		"stopId": 2672,
+		"stopName": "Rsa Angeli Custodi",
+		"street": "Via della Collina"
+	},
+	{
+		"stopId": 2673,
+		"stopName": "Giardini Collina",
+		"street": "Giardini Collina"
+	},
+	{
+		"stopId": 2680,
+		"stopName": "Gazzoletti Piazza Dante",
+		"street": "Gazzoletti Piazza Dante"
+	},
+	{
+		"stopId": 2682,
+		"stopName": "Povo Sommarive",
+		"street": "Via Pantè"
+	},
+	{
+		"stopId": 2683,
+		"stopName": "Povo Polo Scientifico Est",
+		"street": "Via Sommarive"
+	},
+	{
+		"stopId": 2688,
+		"stopName": "Villazzano Stazione Fs",
+		"street": "Villazzano Fs-P/Golfi Urbani"
+	},
+	{
+		"stopId": 2689,
+		"stopName": "Villazzano Stazione Fs",
+		"street": "Villazzano \"Stazione Fs\""
+	},
+	{
+		"stopId": 2701,
+		"stopName": "Ss 349 Pozzata",
+		"street": "Ss 349 Pozzata"
+	},
+	{
+		"stopId": 2702,
+		"stopName": "Parcheggio Ghiaie",
+		"street": "Via Fersina"
+	},
+	{
+		"stopId": 2713,
+		"stopName": "Dos Trento Mariano",
+		"street": "Dos Trento Mariano"
+	},
+	{
+		"stopId": 2759,
+		"stopName": "Via Delle Laste",
+		"street": "Via Delle Laste"
+	},
+	{
+		"stopId": 2763,
+		"stopName": "Gard.D.Mezzo Dos D.La Luna",
+		"street": "Gard.D.Mezzo Dos D.La Luna"
+	},
+	{
+		"stopId": 2764,
+		"stopName": "Gard.D.Mezzo Maso Garbini",
+		"street": "Gard.D.Mezzo Maso Garbini"
+	},
+	{
+		"stopId": 2767,
+		"stopName": "Vigo Meano S.Pietro",
+		"street": "Vigo Meano \"S.Pietro\""
+	},
+	{
+		"stopId": 2780,
+		"stopName": "Ss 45 S.Giorgio",
+		"street": "Ss 45 S.Giorgio"
+	},
+	{
+		"stopId": 2782,
+		"stopName": "Spini Pal. Giano",
+		"street": "Spini \"Pal. Giano\""
+	},
+	{
+		"stopId": 2783,
+		"stopName": "Spini Pal. Giano",
+		"street": "Spini \"Pal. Giano\""
+	},
+	{
+		"stopId": 2784,
+		"stopName": "Spini Varsavia",
+		"street": "Spini Varsavia"
+	},
+	{
+		"stopId": 2785,
+		"stopName": "Spini Varsavia",
+		"street": "Spini Varsavia"
+	},
+	{
+		"stopId": 2786,
+		"stopName": "Spini Masadori",
+		"street": "Spini Masadori"
+	},
+	{
+		"stopId": 2787,
+		"stopName": "Spini Masadori",
+		"street": "Spini Masadori"
+	},
+	{
+		"stopId": 2788,
+		"stopName": "Spini Bregenz",
+		"street": "Spini Bregenz"
+	},
+	{
+		"stopId": 2789,
+		"stopName": "Spini Bregenz",
+		"street": "Spini Bregenz"
+	},
+	{
+		"stopId": 2790,
+		"stopName": "Spini Casa Circondariale",
+		"street": "Spini \"Casa Circondariale\""
+	},
+	{
+		"stopId": 2791,
+		"stopName": "Interporto Interbrennero",
+		"street": "Interporto \"Interbrennero\""
+	},
+	{
+		"stopId": 2792,
+		"stopName": "Interporto Interbrennero",
+		"street": "Interporto \"Interbrennero\""
+	},
+	{
+		"stopId": 2793,
+		"stopName": "Innsbruck Trentino Trasporti",
+		"street": "Innsbruck \"Trentino Trasporti\""
+	},
+	{
+		"stopId": 2794,
+		"stopName": "Innsbruck Trentino Trasporti",
+		"street": "Trentino Trasporti"
+	},
+	{
+		"stopId": 2795,
+		"stopName": "Interporto Logistica 2",
+		"street": "Interporto \"Logistica 2\""
+	},
+	{
+		"stopId": 2796,
+		"stopName": "Interporto Logistica 2",
+		"street": "Interporto \"Logistica 2\""
+	},
+	{
+		"stopId": 2797,
+		"stopName": "Interporto Fercam",
+		"street": "Interporto \"Fercam\""
+	},
+	{
+		"stopId": 2798,
+		"stopName": "Interporto Fercam",
+		"street": "Interporto \"Fercam\""
+	},
+	{
+		"stopId": 2799,
+		"stopName": "Spini Praga",
+		"street": "Spini Praga"
+	},
+	{
+		"stopId": 2801,
+		"stopName": "Vela Scuole S.Vigilio",
+		"street": "Vela \"Scuole S.Vigilio\""
+	},
+	{
+		"stopId": 2814,
+		"stopName": "Mattarello Gotarda",
+		"street": "Mattarello Gotarda"
+	},
+	{
+		"stopId": 2815,
+		"stopName": "Mattarello Fratte",
+		"street": "Mattarello Fratte"
+	},
+	{
+		"stopId": 2817,
+		"stopName": "Roncafort Nord",
+		"street": "Roncafort Nord"
+	},
+	{
+		"stopId": 2820,
+		"stopName": "Povo Pantè",
+		"street": "Povo Pantè"
+	},
+	{
+		"stopId": 2828,
+		"stopName": "Interporto Sait",
+		"street": "Interporto \"Sait\""
+	},
+	{
+		"stopId": 2829,
+		"stopName": "Interporto Sait",
+		"street": "Interporto \"Sait\""
+	},
+	{
+		"stopId": 2833,
+		"stopName": "Povo Polo Scientifico Ovest",
+		"street": "Via Sommarive"
+	},
+	{
+		"stopId": 2872,
+		"stopName": "Rsa S.Bartolomeo",
+		"street": "Rsa S.Bartolomeo"
+	},
+	{
+		"stopId": 2918,
+		"stopName": "Gabbiolo Capolinea",
+		"street": "Gabbiolo Capolinea"
+	},
+	{
+		"stopId": 2923,
+		"stopName": "Cadine Della Fornas",
+		"street": "Cadine Della Fornas"
+	},
+	{
+		"stopId": 2924,
+		"stopName": "Cadine Della Fornas",
+		"street": "Cadine Della Fornas"
+	},
+	{
+		"stopId": 2925,
+		"stopName": "Spini Palazzine",
+		"street": "Spini Palazzine"
+	},
+	{
+		"stopId": 2927,
+		"stopName": "Venezia Port'aquila",
+		"street": "Venezia \"Port'aquila\""
+	},
+	{
+		"stopId": 2939,
+		"stopName": "Funivia-Staz. di Valle-Trento",
+		"street": "Funivia-Staz. di Valle-Trento"
+	},
+	{
+		"stopId": 2940,
+		"stopName": "Funivia-Staz. di Monte-Sardagna",
+		"street": "Funivia-Staz. di Monte-Sardagna"
+	},
+	{
+		"stopId": 2945,
+		"stopName": "Mattarello Rozola",
+		"street": "Mattarello Rozola"
+	},
+	{
+		"stopId": 2946,
+		"stopName": "Mattarello Rozola",
+		"street": "Mattarello Rozola"
+	},
+	{
+		"stopId": 2947,
+		"stopName": "Mattarello Regole",
+		"street": "Mattarello Regole"
+	},
+	{
+		"stopId": 2948,
+		"stopName": "Mattarello Regole",
+		"street": "Mattarello Regole"
+	},
+	{
+		"stopId": 2949,
+		"stopName": "Mattarello Parco",
+		"street": "Mattarello \"Parco\""
+	},
+	{
+		"stopId": 2950,
+		"stopName": "Mattarello Parco",
+		"street": "Mattarello \"Parco\""
+	},
+	{
+		"stopId": 2951,
+		"stopName": "Mattarello Torre Franca",
+		"street": "Mattarello \"Torre Franca\""
+	},
+	{
+		"stopId": 2952,
+		"stopName": "Mattarello Torre Franca",
+		"street": "Mattarello \"Torre Franca\""
+	},
+	{
+		"stopId": 2953,
+		"stopName": "Mattarello Ex Stazione",
+		"street": "Mattarello Ex Stazione"
+	},
+	{
+		"stopId": 2954,
+		"stopName": "Mattarello Sud",
+		"street": "Mattarello Sud"
+	},
+	{
+		"stopId": 2957,
+		"stopName": "Piazza Centa",
+		"street": "Piazza Centa"
+	},
+	{
+		"stopId": 2960,
+		"stopName": "Cadine Voltei",
+		"street": "Cadine Voltei"
+	},
+	{
+		"stopId": 2961,
+		"stopName": "Centa Brennero",
+		"street": "Centa Brennero"
+	},
+	{
+		"stopId": 2970,
+		"stopName": "Vigo Meano Don Perugini",
+		"street": "Vigo Meano Don Perugini"
+	},
+	{
+		"stopId": 2971,
+		"stopName": "Melta Case Itea",
+		"street": "Melta \"Case Itea\""
+	},
+	{
+		"stopId": 2973,
+		"stopName": "Piazzale Divisioni Alpine",
+		"street": "Piazzale Divisioni Alpine"
+	},
+	{
+		"stopId": 2990,
+		"stopName": "Parcheggio Via Lidorno",
+		"street": "Parcheggio Via Lidorno"
+	},
+	{
+		"stopId": 2991,
+		"stopName": "Parcheggio Area Camper",
+		"street": "Parcheggio Area Camper"
+	},
+	{
+		"stopId": 3014,
+		"stopName": "Lavis Via Nazionale",
+		"street": "Via Nazionale"
+	},
+	{
+		"stopId": 3021,
+		"stopName": "Lavis Strada Fonda",
+		"street": "Lavis Strada Fonda"
+	},
+	{
+		"stopId": 3022,
+		"stopName": "Lavis Strada Fonda",
+		"street": "Lavis Strada Fonda"
+	},
+	{
+		"stopId": 3023,
+		"stopName": "Lavis Via Rosmini",
+		"street": "Lavis Rosmini Segantini"
+	},
+	{
+		"stopId": 3029,
+		"stopName": "Lavis Via Filos",
+		"street": "Via F. Filos"
+	},
+	{
+		"stopId": 3038,
+		"stopName": "Pressano Via Cl. Augusta",
+		"street": "Pressano Via Cl. Augusta"
+	},
+	{
+		"stopId": 3041,
+		"stopName": "Pressano Via Pilati",
+		"street": "Via A. Pilati"
+	},
+	{
+		"stopId": 3043,
+		"stopName": "Nave S.Felice Maso Rover",
+		"street": "Nave S.Felice Maso Rover"
+	},
+	{
+		"stopId": 3046,
+		"stopName": "Nave S.Felice Case Tenaia",
+		"street": "Nave S.Felice Case Tenaia"
+	},
+	{
+		"stopId": 3048,
+		"stopName": "Sorni Bivio",
+		"street": "Sorni. Bivio"
+	},
+	{
+		"stopId": 3051,
+		"stopName": "Sorni Via Dalmaso",
+		"street": "Sorni Via Dalmaso"
+	},
+	{
+		"stopId": 3055,
+		"stopName": "Sorni Ss.12",
+		"street": "Sorni Ss.12"
+	},
+	{
+		"stopId": 3057,
+		"stopName": "Maso Zatelli",
+		"street": "Maso Zatelli"
+	},
+	{
+		"stopId": 3059,
+		"stopName": "Maso Del Narciso",
+		"street": "Maso Del Narciso"
+	},
+	{
+		"stopId": 3061,
+		"stopName": "Maso Rosabel",
+		"street": "Maso Rosabel"
+	},
+	{
+		"stopId": 3064,
+		"stopName": "Maso Panizza di Sopra",
+		"street": "Maso Panizza di Sopra"
+	},
+	{
+		"stopId": 3066,
+		"stopName": "Maso Zancanar",
+		"street": "Maso Zancanar"
+	},
+	{
+		"stopId": 3068,
+		"stopName": "Maso Poli",
+		"street": "Maso Poli"
+	},
+	{
+		"stopId": 3070,
+		"stopName": "Maso Luchin",
+		"street": "Maso Luchin"
+	},
+	{
+		"stopId": 3072,
+		"stopName": "Maso Spon",
+		"street": "Maso Spon"
+	},
+	{
+		"stopId": 3081,
+		"stopName": "Maso Tratta",
+		"street": "Maso Tratta"
+	},
+	{
+		"stopId": 3082,
+		"stopName": "Nave S.Felice",
+		"street": "Nave S.Felice"
+	},
+	{
+		"stopId": 3083,
+		"stopName": "Pressano Piazza",
+		"street": "Via Claudia Augusta"
+	},
+	{
+		"stopId": 3084,
+		"stopName": "Nave S.Felice Stazione Ftm",
+		"street": "Nave S.Felice Stazione Ftm"
+	},
+	{
+		"stopId": 3086,
+		"stopName": "Sp.131 Bivio Laste",
+		"street": "SP131"
+	},
+	{
+		"stopId": 3087,
+		"stopName": "Sorni Bivio Via Toresela",
+		"street": "Sorni Bivio Via Toresela"
+	},
+	{
+		"stopId": 3091,
+		"stopName": "Lavis Cantina La-Vis",
+		"street": "Lavis"
+	},
+	{
+		"stopId": 3092,
+		"stopName": "Cervara Scalinata",
+		"street": "Via della Cervara"
+	},
+	{
+		"stopId": 3094,
+		"stopName": "Lavis Cimitero",
+		"street": "Via Nazionale"
+	},
+	{
+		"stopId": 3095,
+		"stopName": "Asiago S. Bartolameo",
+		"street": "Asiago S. Bartolameo"
+	},
+	{
+		"stopId": 3096,
+		"stopName": "Vela Centro",
+		"street": "Vela Centro"
+	},
+	{
+		"stopId": 3097,
+		"stopName": "Fersina Campi Da Tennis",
+		"street": "Fersina \"Campi Da Tennis\""
+	},
+	{
+		"stopId": 3100,
+		"stopName": "Lavoro E Scienza Buc",
+		"street": "Via Adalberto Libera"
+	},
+	{
+		"stopId": 3104,
+		"stopName": "Sanseverino Funivia",
+		"street": "Via Roberto da Sanseverino"
+	},
+	{
+		"stopId": 3105,
+		"stopName": "Montegrappa Funivia",
+		"street": "Lungadige Monte Grappa"
+	},
+	{
+		"stopId": 3106,
+		"stopName": "Papiria Italcementi",
+		"street": "Via Papiria"
+	},
+	{
+		"stopId": 3112,
+		"stopName": "Lavis Piazza Caduti",
+		"street": "Lavis Piazza Caduti"
+	},
+	{
+		"stopId": 3114,
+		"stopName": "Lavis Rosmini Segantini",
+		"street": "Via A. Rosmini"
+	},
+	{
+		"stopId": 3115,
+		"stopName": "Lavis Cembra",
+		"street": "Lavis Cembra"
+	},
+	{
+		"stopId": 3116,
+		"stopName": "Lavis Cembra",
+		"street": "Via Cembra"
+	},
+	{
+		"stopId": 3117,
+		"stopName": "Lavis Cimitero",
+		"street": "Lavis \"Stazione Ftm\""
+	}
+]

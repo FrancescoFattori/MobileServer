@@ -1,0 +1,57 @@
+html,
+body {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+    background-color: grey;
+    margin: 0;
+    border: 0;
+}
+
+#formula {
+    position: absolute;
+    left: 20%;
+    width: 75%;
+    margin-top: 0.5%;
+}
+
+.label {
+    margin-bottom: 0;
+    margin-left: 0.5%;
+}
+
+.labelVar {
+    margin-bottom: 0;
+    margin-left: 0.5%;
+}
+
+.slider {
+    margin-left: 0.5%;
+    width: 18% !important;
+}
+
+.sliderVar {
+    margin-left: 0%;
+    width: 12.5% !important;
+}
+
+#fps {
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0;
+    z-index: 1;
+    color: black;
+}
+
+#canvas {
+    background-color: black;
+    width: 80%;
+    height: 92%;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}

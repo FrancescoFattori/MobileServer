@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html style="background-color: black;">
+
+<head>
+    <title>Isotta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+        charset="UTF-8">
+</head>
+<style>
+    div {
+        text-align: center;
+    }
+</style>
+
+<body style="background-color: black;">
+    <h1 style="text-align: center;color: lightgray;">Why are you still here?</h1>
+    <p style="text-align: center;color: lightgray;">"Seven days", is all I write <br> A kind of ultimatum note <br> I
+        give to you, I give to you
+        <br><br>
+        I don't think she'd bluff this time <br> I really have to make her mine <br> It's plain to see, it's him or me
+    </p>
+    <br>
+    <br>
+    <p style="text-align: center;color: lightgray;" id="countdown"></p>
+    <br>
+    <br>
+    <div>
+        <img src="Gami.png" style="filter: blur(1px);">
+    </div>
+
+</body>
+<script>
+    var htmlCountDown = document.getElementById("countdown");
+    var countDownDate = new Date("May 9, 2023 00:00:00").getTime();
+    function pad(num, totalLength) {
+        return String(num).padStart(totalLength, '0');
+    }
+    function updateClock() {
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        htmlCountDown.innerHTML = pad(days, 2) + ":" + pad(hours, 2) + ":"
+            + pad(minutes, 2) + ":" + pad(seconds, 2);
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(interval);
+            htmlCountDown.innerHTML = "Tempo Scaduto, I'm sorry";
+        }
+    }
+    updateClock();
+    var interval = setInterval(function () {
+        updateClock();
+    }, 1000);
+</script>
+
+</html>

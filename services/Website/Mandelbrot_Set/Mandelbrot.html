@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<html>
+  <link rel="icon" href="Mandelbrot_Set/mandelbrot.ico"/>
+  <head>
+    <title>Mandelbrot Set</title>
+</head>
+<style>
+  @import "Mandelbrot_Set/Mandelbrot.css";
+</style>
+
+<body>
+  <button type="button" onclick="draw()">Start</button>
+  <canvas id="canvas" style="width:104vmin; height:78vmin;"></canvas>
+  <br>
+  <button style="left:28px;" class="buttonArrows" type="button" onclick="up()">↑</button>
+  <button style="left:90px;" type="button" onclick="zoomUp()">Zoom+</button>
+  <input style="left:200px; width: 150px;" type="range" min="1" max="101" value="10" id="iterSlider">
+  <input style="left:370px;" type="checkbox" id="iterCheck" onchange="changeAutoIter()">
+  <label style="left:390px;">Auto Iter</label>
+  <br>
+  <button style="left:8px;"type="button" class="buttonArrows" onclick="left()">←</button>
+  <button style="left:48px;" class="buttonArrows" type="button" onclick="right()">→</button>
+  <button style="left:160px;" class="buttonArrows" type="button" onclick="reset()">R</button>
+  <input style="left:200px;margin:5px 0px;" type="number" id="real" class="number" value="0" step="0.001" min="-1" max="1"
+    onchange="updateJulia()">
+  <input style="left:280px;margin:5px 0px;" type="number" id="imag" class="number" value="0" step="0.001" min="-1" max="1"
+    onchange="updateJulia()">
+  <input style="left:370px;" type="checkbox" id="juliaCheck" onchange="changeJulia()">
+  <label style="left:390px;">Julia Set</label>
+  <br>
+  <button style="left:28px;" class="buttonArrows" type="button" onclick="down()">↓</button>
+  <button style="left:91px;" type="button" onclick="zoomDown()">Zoom-</button>
+  <input style="left:200px; width:65px;padding:10px 0px;" type="range" step="0.001" min="-1" max="1" value="0" id="realSlider"
+    class="slider">
+  <input style="left:280px; width:65px;padding:10px 0px;" type="range" step="0.001" min="-1" max="1" value="0" id="imagSlider"
+    class="slider">
+  <select style="left:370px;margin:5px 0px;" id="colorSelect" onchange="changeColoring()" value="0">
+    <option value="0">Original</option>
+    <option value="1">Ivan</option>
+  </select>
+  <script type="text/javascript" src="Mandelbrot_Set/Mandelbrot.js"></script>
+</body>
+
+</html>

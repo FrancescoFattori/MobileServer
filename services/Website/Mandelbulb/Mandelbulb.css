@@ -1,0 +1,47 @@
+html,
+body {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+    background-color: grey;
+    margin: 0;
+    border: 0;
+}
+
+#formula {
+    margin-left: 0.5%;
+    width: 18%;
+}
+
+.label{
+    margin-bottom: 0;
+    margin-left: 0.5%;
+}
+
+.slider {
+    margin-left: 0.5%;
+    width: 18% ;
+}
+
+#fps {
+    font-weight: bold;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0;
+    z-index: 1;
+    color: black;
+}
+
+#canvas {
+    background-color: black;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+    charset="UTF-8">
+<html>
+
+<head>
+    <title>3D Graph</title>
+</head>
+<style>
+    @import "3D Graph.css";
+</style>
+
+<body>
+    <p id="fps"style="display:inline">60</p> <math-field id="formula">x^4+y^4+z^4-1.0</math-field>
+    <canvas id="canvas"></canvas>
+    <br><br>
+    <p class="label" style="display:inline" id="stepLabel">step = </p>
+    <p class="label" style="display:inline" id="maxIterLabel">&nbsp&nbsp&nbspmaxIter = </p>
+    <input style="display:block" type="range" min="0.01" max="0.1" value="0.05" step="0.005" class="slider" id="step"
+        oninput="updatePrecision();">
+    <p class="label" style="display:inline" id="precisionLabel">precision = </p>
+    <input style="display:block" type="range" min="0.0001" max="0.1" value="0.1" step="0.0001" class="slider"
+        id="precision" oninput="updatePrecision();">
+        <br>
+    <p class="labelVar" style="display:inline" id="A">A = </p>
+    <input style="display:inline" type="range" min="0" max="1" value="0" step="0.0001" class="sliderVar" id="Aslider"
+        oninput="changeSliders();"><br>
+    <p class="labelVar" style="display:inline" id="B">B = </p>
+    <input style="display:inline" type="range" min="0" max="1" value="0" step="0.0001" class="sliderVar" id="Bslider"
+        oninput="changeSliders();"><br>
+    <p class="labelVar" style="display:inline" id="C">C = </p>
+    <input style="display:inline" type="range" min="0" max="1" value="0" step="0.0001" class="sliderVar" id="Cslider"
+        oninput="changeSliders();"><br>
+</body>
+<script defer type="text/javascript" src="latex-to-js.js"></script>
+<script defer type="text/javascript" src="input.js"></script>
+<script defer type="text/javascript" src="shaders.js"></script>
+<script defer type="text/javascript" src="3D Graph.js"></script>
+<script defer src="https://unpkg.com/mathlive@0.94.8/dist/mathlive.min.js"></script>
+<script defer type="text/javascript" src="math-expressions.js"></script>
+
+<!--1.0/((x+1.0)*(x+1.0)+y*y+z*z)+1.0/((x-1.0)*(x-1.0)+y*y+z*z)-1.0-->
+<!--1.0 / (sqrt(x*x+y*y))-z-->
+<!--z * z + pow(sqrt(x * x + y * y) - 2.0, 2.0) - 1.0-->
+<!--z - x*x+y*y-->
+<!--$$ A\left(\left(2-\sqrt{x^2+y^2}\right)^2+z^2-1\right)+\left(1-A\right)\left(x^2+y^2+z^2-4\right) $$-->
+<!--$$ A\left(\left(2-\sqrt{x^4+y^4}\right)^2+4z^2-2\right)+\left(1-A\right)\left(x^4+y^4+z^4-4\right) $$-->
+
+</html>

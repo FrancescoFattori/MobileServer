@@ -1,0 +1,8 @@
+solve resizer canvas problem!!!
+//add graph widget to top right like unity
+reorganize data (all sliders value in js please)
+--draw only if state changed
+show renderTime and remove fps limit
+add possibility to write more formulas
+rework page layout and stylize better
+add error message if specific formula is wrong

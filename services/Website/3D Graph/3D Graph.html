@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+    charset="UTF-8">
+<html>
+<!--/3D Graph/-->
+<head>
+    <title>3D Graph</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/3D Graph/3D Graph.css">
+    <script defer type="text/javascript" src="/3D Graph/Raymarch shader.js"></script>
+    <script defer type="text/javascript" src="/3D Graph/3D Graph.js"></script>
+    <script defer src="https://unpkg.com/mathlive@0.94.8/dist/mathlive.min.js"></script>
+    <script defer type="text/javascript" src="dependencies/math-expressions.js"></script>
+</head>
+
+<body>
+
+    <div id="equationDiv">
+        <math-field id="formula"
+            onchange="updateShader();">x^4+y^4+z^4-5\left(x^2y^2+y^2z^2+x^2z^2\right)+56xyz-20\left(x^2+y^2+z^2\right)+16</math-field>
+        <p style="position:absolute;left:92%;top:50%;margin:0;transform: translateY(-50%);font-size: 2vw;">= 0</p>
+    </div>
+    <div id="sideDiv">
+        <div id="spacer" style="position: unset;width:100%;height:2vw;"></div>
+        <button class="button" id="addSlider" onclick="addSlider();" title="Add a new Slider"><i
+                class="fa-solid fa-plus"></i></button>
+        <button class="button" id="optionsToggle" onclick="toggleOptions();" title="Toggle advanced options"><i
+                class="fa-solid fa-gear"></i></button>
+        <button class="button" id="statsToggle" onclick="toggleGrid();" title="Toggle grid"><i
+                class="fa-solid fa-chart-line"></i></button>
+        <button class="button" id="slidersToggle" onclick="toggleSideDiv();" title="Hide"><i
+                class="fa-solid fa-angles-left"></i></button>
+        <div id="resizer"></div>
+        <div id="advOptions" style="display:none">
+            <br>
+            &nbsp&nbsp<select id="equationsSelector" onchange="selectEquation(this);" style="max-width: 90%;">
+                <option selected disabled>Examples</option>
+                <option value="x^2+y^2-z" algorithm="2">
+                    Paraboloid
+                </option>
+                <option
+                    value="\frac{1}{\left(\left(x-3A\right)^2+y^2+z^2\right)}+\frac{1}{\left(x^2+\left(y-3B\right)^2+z^2\right)}+\frac{1}{\left(x^2+y^2+\left(z-3C\right)^2\right)}-1"
+                    algorithm="0">
+                    Blobs
+                </option>
+                <option
+                    value="A\left(\left(2-\sqrt{x^2+y^2}\right)^2+z^2-1\right)+\left(1-A\right)\left(x^2+y^2+z^2-4\right)"
+                    algorithm="2">
+                    Sphere and Donut
+                </option>
+                <option
+                    value="A\left(\left(2-\sqrt{x^4+y^4}\right)^2+4z^2-2\right)+\left(1-A\right)\left(x^4+y^4+z^4-4\right)"
+                    algorithm="2">
+                    Cube and Donut
+                </option>
+                <option
+                    value="\left(\left(2-\sqrt{x^2+y^2}\right)^2+z^2-\frac14\right)\left(\left(2-\sqrt{z^2+y^2}\right)^2+x^2-\frac14\right)\left(\left(2-\sqrt{x^2+z^2}\right)^2+y^2-\frac14\right)"
+                    algorithm="2">
+                    TriDonut
+                </option>
+                <option
+                    value="2y\left(y^2-3x^2\right)\left(1-z^2\right)+\left(x^2+y^2\right)^2-\left(9z^2-1\right)\left(1-z^2\right)"
+                    algorithm="2">
+                    Genus 2
+                </option>
+                <option
+                    value="\left(x^2+y^2+z^2+y-0.5\right)\left(\left(x^2+y^2+z^2-y-0.5\right)^2-4z^2\right)+8xz\left(x^2+y^2+z^2-y-0.5\right)"
+                    algorithm="2">
+                    Klein Bottle
+                </option>
+                <option
+                    value="4\left(\phi^2x^2-y^2\right)\left(\phi^2y^2-z^2\right)\left(\phi^2z^2-x^2\right)-\left(1+2\phi\right)\left(x^2+y^2+z^2-A^2\right)^2A^2"
+                    algorithm="2">
+                    Barth Sextic
+                </option>
+                <option
+                    value="4\left(\phi^2x^2-y^2\right)\left(\phi^2y^2-z^2\right)\left(\phi^2z^2-x^2\right)-\left(1+2\phi\right)^2\left(x^2+y^2+z^2-1.35^2\right)1.35^2"
+                    algorithm="2">
+                    Dodecahedron?
+                </option>
+                <option
+                    value="4\left(\phi^2x^2-y^2\right)\left(\phi^2y^2-z^2\right)\left(\phi^2z^2-x^2\right)-\left(1+2\phi\right)^2\left(x^2+y^2+z^2-1.4^2\right)^21.4^2+100"
+                    algorithm="2">
+                    Sphere inside Dodecahedron???
+                </option>
+                <option
+                    value="25\left(\frac{\phi}{2}x^2-y^2\right)\left(\frac{\phi}{2}y^2-z^2\right)\left(\frac{\phi}{2}z^2-x^2\right)-\left(1+2\phi\right)^2\left(x^2+y^2+z^2-1\right)"
+                    algorithm="2">
+                    Icosahedron
+                </option>
+            </select>
+            <br>
+            <br>
+            &nbsp&nbsp<select id="algorithmSelector" onchange="changeAlgorithm(this);">
+                <option selected disabled>Algorithm</option>
+                <option value="0" title="works for everything (fast)">
+                    Fast
+                </option>
+                <option value="1" title="works for everything (slow)">
+                    Standard
+                </option>
+                <option value="2" title="works only for signed fields (fast)
+    generally the best one">
+                    Fast Signed
+                </option>
+                <option value="3" title="works only for signed fields (slow and less precise)
+    try if nothing works">
+                    Signed
+                </option>
+            </select>
+            <br>
+            <br>
+            &nbsp&nbsp<input type="checkbox" id="colorIteration" onchange="updateOptions();">
+            <label for="colorIteration">Color Iteration</label>
+            &nbsp&nbsp<input type="color" id="backgroundColor" value="#000000">
+            <br>
+            &nbsp&nbsp<input type="checkbox" id="perspective" onchange="updateOptions();">
+            <label for="perspective">Perspective</label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="color" id="color1" value="#77dd00">
+            <br>
+            &nbsp&nbsp<input type="checkbox" id="lighting" onchange="updateOptions();" checked="true">
+            <label for="lighting" title="not accurate">Lighting</label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="color" id="color2" value="#7700dd">
+            <br>
+            &nbsp&nbsp<input type="checkbox" id="fpsToggle" onchange="updateOptions();" checked="true">
+            <label for="fpsToggle">Show Fps</label>
+            &nbsp&nbsp<input type="checkbox" id="reverseLight" onchange="updateOptions();">
+            <label for="reverseLight">Reverse Light</label>
+            <br>
+            <br>
+            &nbsp&nbsp<label id="zoomLabel" for="zoom">Zoom</label><br>
+            <input id="zoom" type="range" min="0.2" max="3" value="1.0" step="0.01" class="range"
+                style="width:95%;left:2.5%" oninput="camera.zoom=parseFloat(this.value);">
+            <br>
+
+            &nbsp&nbsp<label id="resolutionLabel" for="resolution">Resolution: x1</label><br>
+            <input id="resolution" type="range" min="0.25" max="2.0" value="1.0" step="0.25" class="range"
+                style="width:95%;left:2.5%" oninput="updateOptions();window.onresize();">
+            <br>
+            &nbsp&nbsp<input type="checkbox" id="linearFilter"
+                onchange=" if(options.resolution>1.0)return;canvas.style.imageRendering = this.checked ? 'auto': 'pixelated';state='';">
+            <label for="fpsToggle">Linear Filter</label><br>
+            <br>
+            &nbsp&nbsp<label id="limitRadiusLabel" for="limitRadius">Limit Radius: Unbound</label><br>
+            <input id="limitRadius" type="range" min="0.0" max="100.0" value="25" step="0.01" class="range"
+                style="width:95%;left:2.5%" oninput="updateOptions();"><br><br>
+            &nbsp&nbsp<button onclick="document.getElementById('import').click();" style="margin-bottom:5px;"
+                title="import a project file (.3dg)">Import File</button><br>
+            <input id="import" type="file" style="display: none;" onchange="decode(this.files[0]);">
+            &nbsp&nbsp<button onclick="saveFile();" title="download a json-like file of the project">Export
+                File</button>
+        </div>
+        <div id="sliders"></div>
+        <div id="options">
+            <p id="optionsTag">&nbspOptions</p>
+            <p id="stepLabel">Step: 0.05&nbsp&nbsp&nbsp&nbspMaxIter: 200</p>
+            <input id="step" type="range" min="0.01" max="0.1" value="0.05" step="0.01" class="range"
+                style="width:95%;left:2.5%" oninput="updateOptions();">
+            <br><br>
+            <p id="precisionLabel">Precision: 0.1000</p>
+            <input id="precision" type="range" min="0.0001" max="0.1" value="0.1" step="0.0001" class="range"
+                style="width:95%;left:2.5%" oninput="updateOptions();">
+        </div>
+    </div>
+    <div id="graphDiv">
+        <div id="stats" style="display: none;"></div>
+        <div id="viewGraph">
+            <div id="x" class="segment">
+                <div id="xLetter" class="graphLetter">x</div>
+            </div>
+            <div id="x2" class="segment"></div>
+            <div id="y" class="segment">
+                <div id="yLetter" class="graphLetter">y</div>
+            </div>
+            <div id="y2" class="segment"></div>
+            <div id="z" class="segment">
+                <div id="zLetter" class="graphLetter">z</div>
+            </div>
+            <div id="z2" class="segment"></div>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+</body>
+
+<!--1.0/((x+1.0)*(x+1.0)+y*y+z*z)+1.0/((x-1.0)*(x-1.0)+y*y+z*z)-1.0–>
+<!--1.0 / (sqrt(x*x+y*y))-z-->
+<!--z * z + pow(sqrt(x * x + y * y) - 2.0, 2.0) - 1.0–>
+<!--z - x*x+y*y-->
+<!--$$ A\left(\left(2-\sqrt{x^2+y^2}\right)^2+z^2-1\right)+\left(1-A\right)\left(x^2+y^2+z^2-4\right) $$-->
+<!--$$ A\left(\left(2-\sqrt{x^4+y^4}\right)^2+4z^2-2\right)+\left(1-A\right)\left(x^4+y^4+z^4-4\right) $$-->
+<!--$$ \left(\left(2-\sqrt{x^2+y^2}\right)^2+z^2-\frac14\right)\left(\left(2-\sqrt{z^2+y^2}\right)^2+x^2-\frac14\right)\left(\left(2-\sqrt{x^2+z^2}\right)^2+y^2-\frac14\right)\left(x^2+y^2+z^2-0.1\right) $$-->
+<!--$$ 2y\left(y^2-3x^2\right)\left(1-z^2\right)+\left(x^2+y^2\right)^2-\left(9z^2-1\right)\left(1-z^2\right) $$-->
+<!--$$ \left(2y\left(y^2-3x^2\right)\left(1-z^2\right)+\left(x^2+y^2\right)^2-\left(9z^2-1\right)\left(1-z^2\right)\right)\cdot\sqrt{-\left(x^2+y^2+z^2-6\right)} $$-->
+
+</html>

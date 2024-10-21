@@ -3,16 +3,25 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/index.css" />
+    <link rel="stylesheet" href="src/indexMobile.css" media="(max-aspect-ratio: 9/9)" />
     <title>Control Panel</title>
 </head>
 
 <body>
     <div id="topBar">
-        <div id="services">Services</div>
+        <div id="menu">Menu</div>
         <div id="terminal">Terminal</div>
     </div>
-    <div id="servicesDiv"></div>
+    <div id="servicesPage">
+        <div id="servicesDiv">
+            <div id="servicesDivTitle">Services</div>
+        </div>
+        <div id="processesDiv">
+            <div id="processesDivTitle">Processes</div>
+        </div>
+    </div>
     <div id="terminalDiv">
         <div id="commandLine">
             <p id="command">$</p>

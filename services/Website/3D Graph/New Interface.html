@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+    charset="UTF-8">
+<html>
+
+<head>
+    <title>3D Graph</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/3D Graph/New Interface.css">
+    <script defer src="https://unpkg.com/mathlive@0.94.8/dist/mathlive.min.js"></script>
+    <script defer src="/3D Graph/Raymarch shader.js"></script>
+    <script defer src="/3D Graph/Variables.js"></script>
+    <script defer src="/3D Graph/UI.js"></script>
+    <script defer src="/3D Graph/New Interface.js"></script>
+</head>
+
+<body id="body">
+    <div id="mainEquation">
+        <math-field id="formula" onblur="changeSelectedEquation()"></math-field>
+    </div>
+    <div id="sideBar">
+        <div id="topBar">
+            <div id="addEquation" onclick="createEquation()"><i class="fa-solid fa-plus"></i></div>
+            <div id="options" onclick="toggleOptions()"><i class="fa-solid fa-gear"></i></div>
+            <div id="toggleSideBar" onclick="toggleSideBar()"><i class="fa-solid fa-angles-left"></i></div>
+            <div id="expander"></div>
+        </div>
+        <div id="equationsDiv">
+            <div id="scroller"></div>
+            <div id="equations"></div>
+        </div>
+        <div id="optionsBar" style="display:none">
+            <div id="fullscreen" onclick="toggleFullscreen();"><i class='fa-solid fa-expand'></i></div>
+            <br>
+            &nbsp&nbsp<select id="algorithmSelector" onchange="changeAlgorithm(this);">
+                <option selected disabled>Algorithm</option>
+                <option value="0" title="works for everything (fast)">
+                    Fast
+                </option>
+                <option value="1" title="works for everything (slow)">
+                    Standard
+                </option>
+                <option value="2" title="works only for signed fields (fast)
+                generally the best one">
+                    Fast Signed
+                </option>
+                <option value="3" title="works only for signed fields (slow and less precise) 
+                try if nothing works">
+                    Signed
+                </option>
+            </select>
+            <br>
+            <br>
+            &nbsp&nbsp<input type="checkbox" id="colorIteration" onchange="updateOptions();">
+            <label for="colorIteration">Color Iteration</label><br>
+            &nbsp&nbsp<input type="checkbox" id="perspective" onchange="updateOptions();">
+            <label for="perspective">Perspective</label><br>
+            &nbsp&nbsp<input type="checkbox" id="lighting" onchange="updateOptions();" checked="true">
+            <label for="lighting" title="not accurate">Lighting</label><br>
+            &nbsp&nbsp<input type="checkbox" id="fpsToggle" onchange="updateOptions();" checked="true">
+            <label for="fpsToggle">Show Fps</label><br>
+            <br>
+            &nbsp&nbsp<label id="zoomLabel" for="zoom">Zoom</label><br>
+            <input id="zoom" type="range" min="0.0" max="3" value="1.0" step="0.01" class="range"
+                style="width:95%;left:2.5%" oninput="camera.zoom=parseFloat(this.value);">
+            <br>
+
+            &nbsp&nbsp<label id="resolutionLabel" for="resolution">Resolution: x1</label><br>
+            <input id="resolution" type="range" min="0.25" max="1.25" value="1.0" step="0.25" class="range"
+                style="width:95%;left:2.5%" oninput="options.resolution = parseFloat(this.value);window.onresize();">
+            <br>
+            &nbsp&nbsp<input type="checkbox" id="linearFilter"
+                onchange="console.log(this.checked); canvas.style.imageRendering = this.checked ? 'auto': 'pixelated';">
+            <label for="fpsToggle">Linear Filter</label><br>
+            <br>
+            &nbsp&nbsp<label id="limitRadiusLabel" for="limitRadius">Limit Radius: Unbound</label><br>
+            <input id="limitRadius" type="range" min="0.0" max="25.0" value="24.85" step="0.01" class="range"
+                style="width:95%;left:2.5%" oninput="updateOptions();"><br><br>
+            &nbsp&nbsp<button onclick="document.getElementById('import').click();" style="margin-bottom:5px;"
+                title="import a project file (.3dg)">Import File</button><br>
+            <input id="import" type="file" style="display: none;" onchange="decode(this.files[0]);">
+            &nbsp&nbsp<button onclick="saveFile();" title="download a json-like file of the project">Export
+                File</button>
+        </div>
+    </div>
+    <div id="render">
+        <div id="fps">rT:0.1ms</div>
+        <div id="viewGraph">
+            <div id="x" class="segment">
+                <div id="xLetter" class="graphLetter">x</div>
+            </div>
+            <div id="x2" class="segment"></div>
+            <div id="y" class="segment">
+                <div id="yLetter" class="graphLetter">y</div>
+            </div>
+            <div id="y2" class="segment"></div>
+            <div id="z" class="segment">
+                <div id="zLetter" class="graphLetter">z</div>
+            </div>
+            <div id="z2" class="segment"></div>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+</body>
+
+</html>

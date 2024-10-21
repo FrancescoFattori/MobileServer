@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+html,body{
+  margin: 2px;
+}
+
+canvas {
+  image-rendering: optimizeSpeed;             /* Older versions of FF          */
+  image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
+  image-rendering: -webkit-optimize-contrast; /* Safari                        */
+  image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated;                 /* Awesome future-browsers       */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE                            */
+}
+
+button {
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid black;
+  background-color: lightgray;
+  padding:1px 3px;
+  position: fixed;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:12px;
+}
+
+.buttonArrows {
+  width: 22px;
+  height: 22px;
+}
+
+input{
+  position: fixed;
+}
+
+label{
+  position: fixed;
+}
+.number{
+  font-size: 12px;
+  width: 60px;
+}
+select{
+  position:fixed;
+}

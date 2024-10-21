@@ -1,40 +1,62 @@
+:root {
+    --titleSize: 2vmin;
+    --menuHeight: 10vmin;
+    --subMenuHeight: 5vmin;
+    --textSize: 1.5vmin;
+    --minTextSize: -2vmin;
+}
+
 html,
 body {
     margin: 0;
     background-color: black;
-    font-size: 1.75vmin;
+    font-size: var(--titleSize);
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 div {
     position: absolute;
     text-align: center;
     vertical-align: middle;
-    line-height: 10vmin;
+    line-height: var(--menuHeight);
     color: white;
     text-shadow: 1px 1px 2px black, -1px 1px 2px black, 1px -1px 2px black, -1px -1px 2px black;
 }
 
 p {
-    margin: 0;
-    font-family: Consolas, monaco, monospace;
-    font-size: 1.5vmin;
-    line-height: 1.5vmin;
+    position: relative;
+    left: var(--textSize);
+    top: var(--minTextSize);
+    right: 0;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: var(--textSize);
+    line-height: var(--textSize);
     text-align: left;
+    text-shadow: none;
+    margin: 0;
+    margin-top: 0.5vmin;
+    margin-bottom: 0.5vmin;
+}
+
+input:focus {
+    outline: none !important;
 }
 
 #topBar {
     top: 0%;
     width: 100%;
-    height: 10vmin;
+    height: var(--menuHeight);
     font-weight: bold;
 }
 
-#services {
+#menu {
     left: 0%;
     width: 50%;
     height: 100%;
     background-color: gray;
+    border-top-left-radius: var(--textSize);
+    border-top-right-radius: var(--textSize);
 }
 
 #terminal {
@@ -42,11 +64,17 @@ p {
     width: 50%;
     height: 100%;
     background-color: rgb(70, 70, 70);
+    border-top-left-radius: var(--textSize);
+    border-top-right-radius: var(--textSize);
 }
 
-#servicesDiv {
+#servicesPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0vmin;
     bottom: 0%;
-    top: 10vmin;
+    top: var(--menuHeight);
     width: 100%;
     background-color: gray;
 }
@@ -55,31 +83,111 @@ p {
     display: flex;
     flex-direction: column;
     bottom: 0%;
-    top: 10vmin;
-    width: 100%;
+    top: var(--menuHeight);
+    left: 0;
+    right: var(--textSize);
     background-color: black;
     display: none;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
 }
 
 #commandLine {
     position: relative;
-    height: 1.5vmin;
+    margin-top: 1vmin;
+    height: var(--textSize);
     width: 100%;
 }
 
 #input {
+    display: block;
     position: absolute;
-    left: 2vmin;
+    left: var(--textSize);
     right: 0;
     height: 100%;
     margin: 0;
     border: none;
-    padding: 0;
-    font-family: Consolas, monaco, monospace;
-    line-height: 1.5vmin;
+    padding-top: 0.5vmin;
+    padding-top: 0.5vmin;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    line-height: var(--textSize);
+    font-size: var(--textSize);
+    color: white;
+    background-color: black;
 }
 
 #command {
+    margin: 0;
     position: absolute;
     left: 0.5vmin;
+    top: unset;
+    padding-top: 0.5vmin;
+    padding-top: 0.5vmin;
+}
+
+#servicesDiv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1vmin;
+    background-color: lightgray;
+    border-radius: 1vmin;
+    border: 0.5vmin solid rgb(90, 90, 90);
+}
+
+#processesDiv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1vmin;
+    border-radius: 1vmin;
+    background-color: lightgray;
+    border: 0.5vmin solid rgb(90, 90, 90);
+}
+
+#servicesDivTitle {
+    position: relative;
+    line-height: var(--subMenuHeight);
+    height: var(--subMenuHeight);
+    width: 100%;
+    background-color: rgb(90, 90, 90);
+}
+
+#processesDivTitle {
+    position: relative;
+    line-height: var(--subMenuHeight);
+    height: var(--subMenuHeight);
+    width: 100%;
+    background-color: rgb(90, 90, 90);
+}
+
+.process{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1vmin;
+    padding: 0.5vmin;
+    margin: 0.5vmin;
+    text-shadow: none;
+    text-align: left;
+    height: var(--subMenuHeight);
+    line-height: var(--subMenuHeight);
+    height: var(--subMenuHeight);
+    background-color: gray;
+}
+
+.processBox{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: auto;
+    width: auto;
+    top:0%;
+    height: var(--subMenuHeight);
+}
+
+.processButton{
+    margin:0.5vmin;
+    font-size: var(--textSize);
+    border: none;
 }

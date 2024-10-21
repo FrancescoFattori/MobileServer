@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+    charset="UTF-8">
+<html>
+
+<head>
+    <title>Mandelbulb</title>
+</head>
+<style>
+    @import "/Mandelbulb/Mandelbulb.css";
+</style>
+
+<body>
+    <p id="fps">60</p>
+    <canvas id="canvas"></canvas>
+    <br>
+    <div id="space"></div>
+    <p class="label" id="precisionLabel">precision = </p>
+    <input type="range" min="0.0001" max="0.01" value="0.01" step="0.00001" class="slider" id="precision"
+        oninput="updatePrecision();">
+    <p class="label" id="maxIterLabel">maxIter = </p>
+    <input type="range" min="5" max="100" value="10" step="1" class="slider" id="maxIter" oninput="updatePrecision();">
+    <p class="label" id="powerLabel">power = </p>
+    <input type="range" min="1" max="10" value="8" step="0.05" class="slider" id="power" oninput="updatePrecision();">
+    <p class="label">colorMode</p>
+    &nbsp;<select name="colorMode" id="colorMode" onchange="mode = parseInt(this.value);">
+        <option value="0">Light</option>
+        <option value="1">Depth</option>
+        <option value="2">Ivan Algorithm</option>
+        <option value="3">Palette</option>
+        <option value="4">My Version</option>
+      </select>
+</body>
+<script defer type="text/javascript" src="/Mandelbulb/Mandelbulb.js"></script>
+
+</html>
