@@ -2,6 +2,8 @@
 var public = false;
 var port = 8080;
 
+const prvIp = require('ip');
+const pubIp = require('ext-ip')();
 const express = require('express');
 const request = require('request');
 const bodyParser = require('body-parser');
