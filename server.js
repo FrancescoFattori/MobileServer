@@ -1,9 +1,9 @@
 //Settings
 var public = false;
-var port = 8080;
+var port = 8000;
 var services = [
-    { name: "Website", command: 'node "services/Website/server.js" port: 8081 public', startup: true },
-    { name: "Mappa in movimento", command: 'node "services/Mappa in movimento/server.js" port: 8082 public', startup: true },
+    { name: "Website", command: 'node "services/Website/server.js" port: 8001 public', startup: true },
+    { name: "Mappa in movimento", command: 'node "services/Mappa in movimento/server.js" port: 8002 public', startup: true },
 ]
 //Inclusions
 const prvIp = require("ip");
