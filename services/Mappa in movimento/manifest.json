@@ -4,7 +4,7 @@
 
   "short_name": "Bus di Trento", 
 
-  "start_url": "http://www.bus-di-trento.ddnsfree.com", 
+  "start_url": "http://fattorifrancesco.ddnsfree.com:8002", 
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",
   "display": "fullscreen",
