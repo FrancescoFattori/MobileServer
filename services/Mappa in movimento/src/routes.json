@@ -205,7 +205,22 @@
 	},
 	{
 		"areaId": 23,
-		"news": [],
+		"news": [
+			{
+				"idFeed": null,
+				"agencyId": "12",
+				"serviceType": "Urbano Trento",
+				"startDate": "/Date(1729728000)/",
+				"endDate": "/Date(1730419200)/",
+				"header": "Divieto di transito in via Santi Cosma e Damiano",
+				"details": "Per effettuare lavori di risagomatura rampa/dosso, viene istituito un divieto di transito in via S. Cosma e Damiano a Vela",
+				"stopId": "",
+				"url": "https://www.trentinotrasporti.it/avvisi/10819-divieto-di-transito-in-via-santi-cosma-e-damiano-2024-858",
+				"routeIds": [
+					541
+				]
+			}
+		],
 		"routeColor": "70B442",
 		"routeId": 541,
 		"routeLongName": "Vela P.Dante Villazzano Grotta",
@@ -251,6 +266,23 @@
 					610,
 					613
 				]
+			},
+			{
+				"idFeed": null,
+				"agencyId": "12",
+				"serviceType": "Urbano",
+				"startDate": "/Date(1730073600)/",
+				"endDate": "/Date(1730592000)/",
+				"header": "INTRACOMUNALE DI LAVIS - Riduzione servizi ponte Ognissanti",
+				"details": "Riduzione servizi per le giornate di gioved� 31 ottobre e sabato 2 novembre 2024.",
+				"stopId": "",
+				"url": "https://www.trentinotrasporti.it/avvisi/10826-intracomunale-di-lavis-riduzione-servizi-ponte-ognissanti-2024-865",
+				"routeIds": [
+					607,
+					610,
+					612,
+					613
+				]
 			}
 		],
 		"routeColor": null,
@@ -278,6 +310,23 @@
 					610,
 					613
 				]
+			},
+			{
+				"idFeed": null,
+				"agencyId": "12",
+				"serviceType": "Urbano",
+				"startDate": "/Date(1730073600)/",
+				"endDate": "/Date(1730592000)/",
+				"header": "INTRACOMUNALE DI LAVIS - Riduzione servizi ponte Ognissanti",
+				"details": "Riduzione servizi per le giornate di gioved� 31 ottobre e sabato 2 novembre 2024.",
+				"stopId": "",
+				"url": "https://www.trentinotrasporti.it/avvisi/10826-intracomunale-di-lavis-riduzione-servizi-ponte-ognissanti-2024-865",
+				"routeIds": [
+					607,
+					610,
+					612,
+					613
+				]
 			}
 		],
 		"routeColor": null,
@@ -289,7 +338,25 @@
 	},
 	{
 		"areaId": 23,
-		"news": [],
+		"news": [
+			{
+				"idFeed": null,
+				"agencyId": "12",
+				"serviceType": "Urbano",
+				"startDate": "/Date(1730073600)/",
+				"endDate": "/Date(1730592000)/",
+				"header": "INTRACOMUNALE DI LAVIS - Riduzione servizi ponte Ognissanti",
+				"details": "Riduzione servizi per le giornate di gioved� 31 ottobre e sabato 2 novembre 2024.",
+				"stopId": "",
+				"url": "https://www.trentinotrasporti.it/avvisi/10826-intracomunale-di-lavis-riduzione-servizi-ponte-ognissanti-2024-865",
+				"routeIds": [
+					607,
+					610,
+					612,
+					613
+				]
+			}
+		],
 		"routeColor": null,
 		"routeId": 612,
 		"routeLongName": "04 Lavis Zona Industriale Lavis",
@@ -313,6 +380,23 @@
 				"routeIds": [
 					607,
 					610,
+					613
+				]
+			},
+			{
+				"idFeed": null,
+				"agencyId": "12",
+				"serviceType": "Urbano",
+				"startDate": "/Date(1730073600)/",
+				"endDate": "/Date(1730592000)/",
+				"header": "INTRACOMUNALE DI LAVIS - Riduzione servizi ponte Ognissanti",
+				"details": "Riduzione servizi per le giornate di gioved� 31 ottobre e sabato 2 novembre 2024.",
+				"stopId": "",
+				"url": "https://www.trentinotrasporti.it/avvisi/10826-intracomunale-di-lavis-riduzione-servizi-ponte-ognissanti-2024-865",
+				"routeIds": [
+					607,
+					610,
+					612,
 					613
 				]
 			}

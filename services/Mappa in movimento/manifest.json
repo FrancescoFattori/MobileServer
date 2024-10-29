@@ -1,0 +1,18 @@
+{ 
+
+  "name": "Bus di Trento", 
+
+  "short_name": "Bus di Trento", 
+
+  "start_url": "http://www.bus-di-trento.ddnsfree.com", 
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "display": "fullscreen",
+  "orientation":  "portrait",
+  "icons": [
+  {
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "any"
+  }]
+}

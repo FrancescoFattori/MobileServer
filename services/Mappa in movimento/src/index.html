@@ -6,11 +6,12 @@
     <link href="https://db.onlinewebfonts.com/c/4bad449c3c5c04d6a405ea6b80986aa0?family=SohoGothicPro-Bold"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="src/index.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body oncontextmenu="return false;">
     <button onclick="refresh();" style="z-index:2; position:absolute;">Refresh</button>
-    <div id="sidebar">
+    <div id="sidebar" style="display: none;">
         <div id="menuSelector">
             <div id="bus"></div>
             <div id="stops"></div>
@@ -25,7 +26,7 @@
         <div id="busDiv"></div>
         <div id="devPoints"></div>
     </div>
-    <div id="devConsole" style="background-color:rgb(200,200,200); border: 1px solid black; right:0%; display: block;">
+    <div id="devConsole" style="background-color:rgb(200,200,200); border: 1px solid black; right:0%; display: none;">
         <label for="devStop">Stop:</label>
         <select name="devStop" id="devStop"></select><br><br>
         <label for="devBus">Bus:</label>
